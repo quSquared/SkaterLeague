@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 94
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\colors.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 1,
-                        "startOffset": 52,
+                        "startOffset": 54,
                         "endColumn": 40,
-                        "endOffset": 91
+                        "endOffset": 93
                     }
                 }
             },
@@ -31,14 +31,14 @@
                     "endOffset": 311
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 87,
+                        "startOffset": 91,
                         "endLine": 7,
                         "endColumn": 12,
-                        "endOffset": 299
+                        "endOffset": 306
                     }
                 }
             },
@@ -51,13 +51,13 @@
                     "endOffset": 402
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 301,
+                        "startOffset": 55,
                         "endColumn": 90,
-                        "endOffset": 387
+                        "endOffset": 141
                     }
                 }
             },
@@ -70,13 +70,13 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 392,
+                        "startOffset": 146,
                         "endColumn": 102,
-                        "endOffset": 490
+                        "endOffset": 244
                     }
                 }
             },
@@ -89,13 +89,13 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 495,
+                        "startOffset": 249,
                         "endColumn": 102,
-                        "endOffset": 593
+                        "endOffset": 347
                     }
                 }
             },
@@ -108,13 +108,13 @@
                     "endOffset": 713
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 598,
+                        "startOffset": 352,
                         "endColumn": 104,
-                        "endOffset": 698
+                        "endOffset": 452
                     }
                 }
             },
@@ -127,13 +127,13 @@
                     "endOffset": 820
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 703,
+                        "startOffset": 457,
                         "endColumn": 106,
-                        "endOffset": 805
+                        "endOffset": 559
                     }
                 }
             },
@@ -146,13 +146,13 @@
                     "endOffset": 929
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 810,
+                        "startOffset": 564,
                         "endColumn": 108,
-                        "endOffset": 914
+                        "endOffset": 668
                     }
                 }
             },
@@ -165,13 +165,13 @@
                     "endOffset": 1038
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 919,
+                        "startOffset": 673,
                         "endColumn": 108,
-                        "endOffset": 1023
+                        "endOffset": 777
                     }
                 }
             },
@@ -184,13 +184,13 @@
                     "endOffset": 1147
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1028,
+                        "startOffset": 782,
                         "endColumn": 108,
-                        "endOffset": 1132
+                        "endOffset": 886
                     }
                 }
             },
@@ -203,13 +203,13 @@
                     "endOffset": 1256
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1137,
+                        "startOffset": 891,
                         "endColumn": 108,
-                        "endOffset": 1241
+                        "endOffset": 995
                     }
                 }
             },
@@ -222,13 +222,13 @@
                     "endOffset": 1365
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1246,
+                        "startOffset": 1000,
                         "endColumn": 108,
-                        "endOffset": 1350
+                        "endOffset": 1104
                     }
                 }
             },
@@ -241,13 +241,13 @@
                     "endOffset": 1472
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1355,
+                        "startOffset": 1109,
                         "endColumn": 106,
-                        "endOffset": 1457
+                        "endOffset": 1211
                     }
                 }
             },
@@ -260,13 +260,13 @@
                     "endOffset": 1575
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1462,
+                        "startOffset": 1216,
                         "endColumn": 102,
-                        "endOffset": 1560
+                        "endOffset": 1314
                     }
                 }
             },
@@ -279,13 +279,13 @@
                     "endOffset": 1694
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1565,
+                        "startOffset": 1319,
                         "endColumn": 118,
-                        "endOffset": 1679
+                        "endOffset": 1433
                     }
                 }
             },
@@ -299,14 +299,14 @@
                     "endOffset": 1849
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1925,
-                        "endLine": 20,
+                        "startOffset": 1438,
+                        "endLine": 16,
                         "endColumn": 12,
-                        "endOffset": 2075
+                        "endOffset": 1588
                     }
                 }
             },
@@ -320,14 +320,14 @@
                     "endOffset": 2004
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 2080,
-                        "endLine": 22,
+                        "startOffset": 1593,
+                        "endLine": 18,
                         "endColumn": 12,
-                        "endOffset": 2230
+                        "endOffset": 1743
                     }
                 }
             },
@@ -340,13 +340,13 @@
                     "endOffset": 2109
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 2481,
+                        "startOffset": 1748,
                         "endColumn": 104,
-                        "endOffset": 2581
+                        "endOffset": 1848
                     }
                 }
             },
@@ -359,13 +359,13 @@
                     "endOffset": 2230
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2586,
+                        "startOffset": 1853,
                         "endColumn": 120,
-                        "endOffset": 2702
+                        "endOffset": 1969
                     }
                 }
             },
@@ -378,13 +378,13 @@
                     "endOffset": 2331
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2707,
+                        "startOffset": 1974,
                         "endColumn": 100,
-                        "endOffset": 2803
+                        "endOffset": 2070
                     }
                 }
             },
@@ -398,14 +398,14 @@
                     "endOffset": 2478
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 3049,
-                        "endLine": 31,
+                        "startOffset": 2075,
+                        "endLine": 23,
                         "endColumn": 12,
-                        "endOffset": 3191
+                        "endOffset": 2217
                     }
                 }
             },
@@ -419,14 +419,14 @@
                     "endOffset": 2619
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 3196,
-                        "endLine": 33,
+                        "startOffset": 2222,
+                        "endLine": 25,
                         "endColumn": 12,
-                        "endOffset": 3332
+                        "endOffset": 2358
                     }
                 }
             },
@@ -439,13 +439,13 @@
                     "endOffset": 2722
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 36,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 3583,
+                        "startOffset": 2363,
                         "endColumn": 102,
-                        "endOffset": 3681
+                        "endOffset": 2461
                     }
                 }
             },
@@ -458,13 +458,13 @@
                     "endOffset": 2841
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 37,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 3686,
+                        "startOffset": 2466,
                         "endColumn": 118,
-                        "endOffset": 3800
+                        "endOffset": 2580
                     }
                 }
             },
@@ -477,13 +477,13 @@
                     "endOffset": 2948
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 38,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 3805,
+                        "startOffset": 2585,
                         "endColumn": 106,
-                        "endOffset": 3907
+                        "endOffset": 2687
                     }
                 }
             },
@@ -496,13 +496,13 @@
                     "endOffset": 3051
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 39,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 3912,
+                        "startOffset": 2692,
                         "endColumn": 102,
-                        "endOffset": 4010
+                        "endOffset": 2790
                     }
                 }
             },
@@ -513,17 +513,17 @@
                     "startOffset": 3056,
                     "endLine": 36,
                     "endColumn": 12,
-                    "endOffset": 3198
+                    "endOffset": 3206
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 42,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 4256,
-                        "endLine": 43,
+                        "startOffset": 2795,
+                        "endLine": 31,
                         "endColumn": 12,
-                        "endOffset": 4398
+                        "endOffset": 2945
                     }
                 }
             },
@@ -531,20 +531,20 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3203,
+                    "startOffset": 3211,
                     "endLine": 38,
                     "endColumn": 12,
-                    "endOffset": 3353
+                    "endOffset": 3377
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 44,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 4403,
-                        "endLine": 45,
+                        "startOffset": 2950,
+                        "endLine": 33,
                         "endColumn": 12,
-                        "endOffset": 4553
+                        "endOffset": 3116
                     }
                 }
             },
@@ -552,20 +552,20 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3358,
+                    "startOffset": 3382,
                     "endLine": 40,
                     "endColumn": 12,
-                    "endOffset": 3524
+                    "endOffset": 3526
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 46,
+                        "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 4558,
-                        "endLine": 47,
+                        "startOffset": 3121,
+                        "endLine": 35,
                         "endColumn": 12,
-                        "endOffset": 4724
+                        "endOffset": 3265
                     }
                 }
             },
@@ -573,20 +573,20 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 3529,
+                    "startOffset": 3531,
                     "endLine": 42,
                     "endColumn": 12,
-                    "endOffset": 3673
+                    "endOffset": 3691
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 48,
+                        "startLine": 36,
                         "startColumn": 4,
-                        "startOffset": 4729,
-                        "endLine": 49,
+                        "startOffset": 3270,
+                        "endLine": 37,
                         "endColumn": 12,
-                        "endOffset": 4873
+                        "endOffset": 3430
                     }
                 }
             },
@@ -594,20 +594,20 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 3678,
+                    "startOffset": 3696,
                     "endLine": 44,
                     "endColumn": 12,
-                    "endOffset": 3838
+                    "endOffset": 3848
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 50,
+                        "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 4878,
-                        "endLine": 51,
+                        "startOffset": 3435,
+                        "endLine": 39,
                         "endColumn": 12,
-                        "endOffset": 5038
+                        "endOffset": 3587
                     }
                 }
             },
@@ -615,20 +615,20 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3843,
+                    "startOffset": 3853,
                     "endLine": 46,
                     "endColumn": 12,
-                    "endOffset": 3995
+                    "endOffset": 3999
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 52,
+                        "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 5043,
-                        "endLine": 53,
+                        "startOffset": 3592,
+                        "endLine": 41,
                         "endColumn": 12,
-                        "endOffset": 5195
+                        "endOffset": 3738
                     }
                 }
             },
@@ -636,62 +636,79 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 4000,
-                    "endLine": 48,
-                    "endColumn": 12,
-                    "endOffset": 4146
+                    "startOffset": 4004,
+                    "endColumn": 118,
+                    "endOffset": 4118
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 54,
+                        "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 5200,
-                        "endLine": 55,
-                        "endColumn": 12,
-                        "endOffset": 5346
+                        "startOffset": 3743,
+                        "endColumn": 118,
+                        "endOffset": 3857
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 4151,
-                    "endLine": 50,
+                    "startOffset": 4123,
+                    "endLine": 49,
                     "endColumn": 12,
-                    "endOffset": 4295
+                    "endOffset": 4267
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 56,
+                        "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 5351,
-                        "endLine": 57,
+                        "startOffset": 3862,
+                        "endLine": 44,
                         "endColumn": 12,
-                        "endOffset": 5495
+                        "endOffset": 4006
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 4300,
-                    "endLine": 52,
+                    "startOffset": 4272,
+                    "endLine": 51,
                     "endColumn": 12,
-                    "endOffset": 4444
+                    "endOffset": 4416
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 58,
+                        "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 5500,
-                        "endLine": 59,
+                        "startOffset": 4011,
+                        "endLine": 46,
                         "endColumn": 12,
-                        "endOffset": 5644
+                        "endOffset": 4155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 4421,
+                    "endColumn": 111,
+                    "endOffset": 4528
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 4160,
+                        "endColumn": 111,
+                        "endOffset": 4267
                     }
                 }
             },
@@ -699,18 +716,18 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 4449,
-                    "endColumn": 111,
-                    "endOffset": 4556
+                    "startOffset": 4533,
+                    "endColumn": 146,
+                    "endOffset": 4675
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 62,
+                        "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 5895,
-                        "endColumn": 111,
-                        "endOffset": 6002
+                        "startOffset": 4272,
+                        "endColumn": 146,
+                        "endOffset": 4414
                     }
                 }
             },
@@ -718,60 +735,60 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 4561,
-                    "endColumn": 146,
-                    "endOffset": 4703
+                    "startOffset": 4680,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 4828
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 65,
+                        "startLine": 49,
                         "startColumn": 4,
-                        "startOffset": 6248,
-                        "endColumn": 146,
-                        "endOffset": 6390
+                        "startOffset": 4419,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 4567
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 4708,
-                    "endLine": 56,
+                    "startOffset": 4833,
+                    "endLine": 57,
                     "endColumn": 12,
-                    "endOffset": 4856
+                    "endOffset": 4975
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 66,
+                        "startLine": 51,
                         "startColumn": 4,
-                        "startOffset": 6395,
-                        "endLine": 67,
+                        "startOffset": 4572,
+                        "endLine": 52,
                         "endColumn": 12,
-                        "endOffset": 6543
+                        "endOffset": 4714
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 4861,
-                    "endLine": 58,
-                    "endColumn": 12,
-                    "endOffset": 5003
+                    "startOffset": 4980,
+                    "endColumn": 74,
+                    "endOffset": 5050
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 68,
+                        "startLine": 53,
                         "startColumn": 4,
-                        "startOffset": 6548,
-                        "endLine": 69,
-                        "endColumn": 12,
-                        "endOffset": 6690
+                        "startOffset": 4719,
+                        "endColumn": 74,
+                        "endOffset": 4789
                     }
                 }
             },
@@ -779,18 +796,18 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 5008,
-                    "endColumn": 74,
-                    "endOffset": 5078
+                    "startOffset": 5055,
+                    "endColumn": 88,
+                    "endOffset": 5139
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 72,
+                        "startLine": 54,
                         "startColumn": 4,
-                        "startOffset": 6936,
-                        "endColumn": 74,
-                        "endOffset": 7006
+                        "startOffset": 4794,
+                        "endColumn": 88,
+                        "endOffset": 4878
                     }
                 }
             },
@@ -798,18 +815,18 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 5083,
-                    "endColumn": 88,
-                    "endOffset": 5167
+                    "startOffset": 5144,
+                    "endColumn": 86,
+                    "endOffset": 5226
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 73,
+                        "startLine": 55,
                         "startColumn": 4,
-                        "startOffset": 7011,
-                        "endColumn": 88,
-                        "endOffset": 7095
+                        "startOffset": 4883,
+                        "endColumn": 86,
+                        "endOffset": 4965
                     }
                 }
             },
@@ -817,18 +834,18 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 5172,
-                    "endColumn": 86,
-                    "endOffset": 5254
+                    "startOffset": 5231,
+                    "endColumn": 100,
+                    "endOffset": 5327
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 74,
+                        "startLine": 56,
                         "startColumn": 4,
-                        "startOffset": 7100,
-                        "endColumn": 86,
-                        "endOffset": 7182
+                        "startOffset": 4970,
+                        "endColumn": 100,
+                        "endOffset": 5066
                     }
                 }
             },
@@ -836,102 +853,188 @@
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 5259,
-                    "endColumn": 100,
-                    "endOffset": 5355
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 75,
-                        "startColumn": 4,
-                        "startOffset": 7187,
-                        "endColumn": 100,
-                        "endOffset": 7283
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 63,
-                    "startColumn": 4,
-                    "startOffset": 5360,
-                    "endLine": 111,
+                    "startOffset": 5332,
+                    "endLine": 105,
                     "endColumn": 12,
-                    "endOffset": 8839
+                    "endOffset": 8395
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 76,
+                        "startLine": 57,
                         "startColumn": 4,
-                        "startOffset": 7288,
-                        "endLine": 124,
+                        "startOffset": 5071,
+                        "endLine": 100,
                         "endColumn": 12,
-                        "endOffset": 10767
+                        "endOffset": 8134
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 112,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 8844,
-                    "endLine": 114,
+                    "startOffset": 8400,
+                    "endLine": 108,
                     "endColumn": 12,
-                    "endOffset": 9025
+                    "endOffset": 8581
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 125,
+                        "startLine": 101,
                         "startColumn": 4,
-                        "startOffset": 10772,
-                        "endLine": 127,
+                        "startOffset": 8139,
+                        "endLine": 103,
                         "endColumn": 12,
-                        "endOffset": 10953
+                        "endOffset": 8320
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 115,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 9030,
-                    "endLine": 163,
+                    "startOffset": 8586,
+                    "endLine": 152,
                     "endColumn": 12,
-                    "endOffset": 12521
+                    "endOffset": 11661
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 128,
+                        "startLine": 104,
                         "startColumn": 4,
-                        "startOffset": 10958,
-                        "endLine": 176,
+                        "startOffset": 8325,
+                        "endLine": 147,
                         "endColumn": 12,
-                        "endOffset": 14449
+                        "endOffset": 11400
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 164,
+                    "startLine": 153,
                     "startColumn": 4,
-                    "startOffset": 12526,
+                    "startOffset": 11666,
+                    "endLine": 155,
+                    "endColumn": 12,
+                    "endOffset": 11859
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 11405,
+                        "endLine": 150,
+                        "endColumn": 12,
+                        "endOffset": 11598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 11864,
+                    "endLine": 157,
+                    "endColumn": 12,
+                    "endOffset": 11982
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 11603,
+                        "endLine": 152,
+                        "endColumn": 12,
+                        "endOffset": 11721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 11987,
+                    "endLine": 159,
+                    "endColumn": 12,
+                    "endOffset": 12105
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 11726,
+                        "endLine": 154,
+                        "endColumn": 12,
+                        "endOffset": 11844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 12110,
+                    "endLine": 161,
+                    "endColumn": 12,
+                    "endOffset": 12218
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 11849,
+                        "endLine": 156,
+                        "endColumn": 12,
+                        "endOffset": 11957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 12223,
+                    "endLine": 164,
+                    "endColumn": 12,
+                    "endOffset": 12401
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 11962,
+                        "endLine": 159,
+                        "endColumn": 12,
+                        "endOffset": 12140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 12406,
                     "endLine": 166,
                     "endColumn": 12,
-                    "endOffset": 12719
+                    "endOffset": 12532
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 177,
+                        "startLine": 160,
                         "startColumn": 4,
-                        "startOffset": 14454,
-                        "endLine": 179,
+                        "startOffset": 12145,
+                        "endLine": 161,
                         "endColumn": 12,
-                        "endOffset": 14647
+                        "endOffset": 12271
                     }
                 }
             },
@@ -939,41 +1042,39 @@
                 "to": {
                     "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 12724,
-                    "endLine": 168,
+                    "startOffset": 12537,
+                    "endLine": 169,
                     "endColumn": 12,
-                    "endOffset": 12842
+                    "endOffset": 12733
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 182,
+                        "startLine": 162,
                         "startColumn": 4,
-                        "startOffset": 14893,
-                        "endLine": 183,
+                        "startOffset": 12276,
+                        "endLine": 164,
                         "endColumn": 12,
-                        "endOffset": 15011
+                        "endOffset": 12472
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 12847,
-                    "endLine": 170,
-                    "endColumn": 12,
-                    "endOffset": 12965
+                    "startOffset": 12738,
+                    "endColumn": 88,
+                    "endOffset": 12822
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 184,
+                        "startLine": 165,
                         "startColumn": 4,
-                        "startOffset": 15016,
-                        "endLine": 185,
-                        "endColumn": 12,
-                        "endOffset": 15134
+                        "startOffset": 12477,
+                        "endColumn": 88,
+                        "endOffset": 12561
                     }
                 }
             },
@@ -981,20 +1082,37 @@
                 "to": {
                     "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 12970,
-                    "endLine": 172,
-                    "endColumn": 12,
-                    "endOffset": 13078
+                    "startOffset": 12827,
+                    "endColumn": 110,
+                    "endOffset": 12933
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 186,
+                        "startLine": 166,
                         "startColumn": 4,
-                        "startOffset": 15139,
-                        "endLine": 187,
-                        "endColumn": 12,
-                        "endOffset": 15247
+                        "startOffset": 12566,
+                        "endColumn": 110,
+                        "endOffset": 12672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 12938,
+                    "endColumn": 126,
+                    "endOffset": 13060
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 12677,
+                        "endColumn": 126,
+                        "endOffset": 12799
                     }
                 }
             },
@@ -1002,20 +1120,56 @@
                 "to": {
                     "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 13083,
-                    "endLine": 175,
-                    "endColumn": 12,
-                    "endOffset": 13261
+                    "startOffset": 13065,
+                    "endColumn": 100,
+                    "endOffset": 13161
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 188,
+                        "startLine": 168,
                         "startColumn": 4,
-                        "startOffset": 15252,
-                        "endLine": 190,
-                        "endColumn": 12,
-                        "endOffset": 15430
+                        "startOffset": 12804,
+                        "endColumn": 100,
+                        "endOffset": 12900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 13166,
+                    "endColumn": 94,
+                    "endOffset": 13256
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12905,
+                        "endColumn": 94,
+                        "endOffset": 12995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 13261,
+                    "endColumn": 122,
+                    "endOffset": 13379
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 13000,
+                        "endColumn": 122,
+                        "endOffset": 13118
                     }
                 }
             },
@@ -1023,20 +1177,37 @@
                 "to": {
                     "startLine": 176,
                     "startColumn": 4,
-                    "startOffset": 13266,
-                    "endLine": 177,
-                    "endColumn": 12,
-                    "endOffset": 13392
+                    "startOffset": 13384,
+                    "endColumn": 128,
+                    "endOffset": 13508
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 191,
+                        "startLine": 171,
                         "startColumn": 4,
-                        "startOffset": 15435,
-                        "endLine": 192,
-                        "endColumn": 12,
-                        "endOffset": 15561
+                        "startOffset": 13123,
+                        "endColumn": 128,
+                        "endOffset": 13247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 13513,
+                    "endColumn": 116,
+                    "endOffset": 13625
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 13252,
+                        "endColumn": 116,
+                        "endOffset": 13364
                     }
                 }
             },
@@ -1044,56 +1215,20 @@
                 "to": {
                     "startLine": 178,
                     "startColumn": 4,
-                    "startOffset": 13397,
-                    "endColumn": 116,
-                    "endOffset": 13509
+                    "startOffset": 13630,
+                    "endLine": 180,
+                    "endColumn": 12,
+                    "endOffset": 13802
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 193,
+                        "startLine": 173,
                         "startColumn": 4,
-                        "startOffset": 15566,
-                        "endColumn": 116,
-                        "endOffset": 15678
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 179,
-                    "startColumn": 4,
-                    "startOffset": 13514,
-                    "endColumn": 88,
-                    "endOffset": 13598
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 194,
-                        "startColumn": 4,
-                        "startOffset": 15683,
-                        "endColumn": 88,
-                        "endOffset": 15767
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 180,
-                    "startColumn": 4,
-                    "startOffset": 13603,
-                    "endColumn": 110,
-                    "endOffset": 13709
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 195,
-                        "startColumn": 4,
-                        "startOffset": 15772,
-                        "endColumn": 110,
-                        "endOffset": 15878
+                        "startOffset": 13369,
+                        "endLine": 175,
+                        "endColumn": 12,
+                        "endOffset": 13541
                     }
                 }
             },
@@ -1101,18 +1236,18 @@
                 "to": {
                     "startLine": 181,
                     "startColumn": 4,
-                    "startOffset": 13714,
-                    "endColumn": 126,
-                    "endOffset": 13836
+                    "startOffset": 13807,
+                    "endColumn": 98,
+                    "endOffset": 13901
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 196,
+                        "startLine": 176,
                         "startColumn": 4,
-                        "startOffset": 15883,
-                        "endColumn": 126,
-                        "endOffset": 16005
+                        "startOffset": 13546,
+                        "endColumn": 98,
+                        "endOffset": 13640
                     }
                 }
             },
@@ -1120,37 +1255,20 @@
                 "to": {
                     "startLine": 182,
                     "startColumn": 4,
-                    "startOffset": 13841,
-                    "endColumn": 100,
-                    "endOffset": 13937
+                    "startOffset": 13906,
+                    "endLine": 183,
+                    "endColumn": 12,
+                    "endOffset": 14036
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 197,
+                        "startLine": 177,
                         "startColumn": 4,
-                        "startOffset": 16010,
-                        "endColumn": 100,
-                        "endOffset": 16106
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 183,
-                    "startColumn": 4,
-                    "startOffset": 13942,
-                    "endColumn": 94,
-                    "endOffset": 14032
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 198,
-                        "startColumn": 4,
-                        "startOffset": 16111,
-                        "endColumn": 94,
-                        "endOffset": 16201
+                        "startOffset": 13645,
+                        "endLine": 178,
+                        "endColumn": 12,
+                        "endOffset": 13775
                     }
                 }
             },
@@ -1158,37 +1276,20 @@
                 "to": {
                     "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 14037,
-                    "endColumn": 122,
-                    "endOffset": 14155
+                    "startOffset": 14041,
+                    "endLine": 185,
+                    "endColumn": 12,
+                    "endOffset": 14179
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 199,
+                        "startLine": 179,
                         "startColumn": 4,
-                        "startOffset": 16206,
-                        "endColumn": 122,
-                        "endOffset": 16324
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 185,
-                    "startColumn": 4,
-                    "startOffset": 14160,
-                    "endColumn": 128,
-                    "endOffset": 14284
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 200,
-                        "startColumn": 4,
-                        "startOffset": 16329,
-                        "endColumn": 128,
-                        "endOffset": 16453
+                        "startOffset": 13780,
+                        "endLine": 180,
+                        "endColumn": 12,
+                        "endOffset": 13918
                     }
                 }
             },
@@ -1196,37 +1297,20 @@
                 "to": {
                     "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 14289,
-                    "endColumn": 116,
-                    "endOffset": 14401
+                    "startOffset": 14184,
+                    "endLine": 187,
+                    "endColumn": 12,
+                    "endOffset": 14314
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 201,
+                        "startLine": 181,
                         "startColumn": 4,
-                        "startOffset": 16458,
-                        "endColumn": 116,
-                        "endOffset": 16570
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 187,
-                    "startColumn": 4,
-                    "startOffset": 14406,
-                    "endColumn": 92,
-                    "endOffset": 14494
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 202,
-                        "startColumn": 4,
-                        "startOffset": 16575,
-                        "endColumn": 92,
-                        "endOffset": 16663
+                        "startOffset": 13923,
+                        "endLine": 182,
+                        "endColumn": 12,
+                        "endOffset": 14053
                     }
                 }
             },
@@ -1234,20 +1318,20 @@
                 "to": {
                     "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 14499,
+                    "startOffset": 14319,
                     "endLine": 189,
                     "endColumn": 12,
-                    "endOffset": 14629
+                    "endOffset": 14433
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 203,
+                        "startLine": 183,
                         "startColumn": 4,
-                        "startOffset": 16668,
-                        "endLine": 204,
+                        "startOffset": 14058,
+                        "endLine": 184,
                         "endColumn": 12,
-                        "endOffset": 16798
+                        "endOffset": 14172
                     }
                 }
             },
@@ -1255,41 +1339,20 @@
                 "to": {
                     "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 14634,
-                    "endLine": 191,
-                    "endColumn": 12,
-                    "endOffset": 14772
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 205,
-                        "startColumn": 4,
-                        "startOffset": 16803,
-                        "endLine": 206,
-                        "endColumn": 12,
-                        "endOffset": 16941
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 192,
-                    "startColumn": 4,
-                    "startOffset": 14777,
+                    "startOffset": 14438,
                     "endLine": 193,
                     "endColumn": 12,
-                    "endOffset": 14907
+                    "endOffset": 14634
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 207,
+                        "startLine": 185,
                         "startColumn": 4,
-                        "startOffset": 16946,
-                        "endLine": 208,
+                        "startOffset": 14177,
+                        "endLine": 188,
                         "endColumn": 12,
-                        "endOffset": 17076
+                        "endOffset": 14373
                     }
                 }
             },
@@ -1297,20 +1360,20 @@
                 "to": {
                     "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 14912,
+                    "startOffset": 14639,
                     "endLine": 195,
                     "endColumn": 12,
-                    "endOffset": 15026
+                    "endOffset": 14753
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 209,
+                        "startLine": 189,
                         "startColumn": 4,
-                        "startOffset": 17081,
-                        "endLine": 210,
+                        "startOffset": 14378,
+                        "endLine": 190,
                         "endColumn": 12,
-                        "endOffset": 17195
+                        "endOffset": 14492
                     }
                 }
             },
@@ -1318,98 +1381,98 @@
                 "to": {
                     "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 15031,
-                    "endLine": 199,
-                    "endColumn": 12,
-                    "endOffset": 15227
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 211,
-                        "startColumn": 4,
-                        "startOffset": 17200,
-                        "endLine": 214,
-                        "endColumn": 12,
-                        "endOffset": 17396
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 200,
-                    "startColumn": 4,
-                    "startOffset": 15232,
-                    "endLine": 201,
-                    "endColumn": 12,
-                    "endOffset": 15346
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 215,
-                        "startColumn": 4,
-                        "startOffset": 17401,
-                        "endLine": 216,
-                        "endColumn": 12,
-                        "endOffset": 17515
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 202,
-                    "startColumn": 4,
-                    "startOffset": 15351,
+                    "startOffset": 14758,
                     "endColumn": 92,
-                    "endOffset": 15439
+                    "endOffset": 14846
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 217,
+                        "startLine": 191,
                         "startColumn": 4,
-                        "startOffset": 17520,
+                        "startOffset": 14497,
                         "endColumn": 92,
-                        "endOffset": 17608
+                        "endOffset": 14585
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 203,
+                    "startLine": 197,
                     "startColumn": 4,
-                    "startOffset": 15444,
+                    "startOffset": 14851,
                     "endColumn": 110,
-                    "endOffset": 15550
+                    "endOffset": 14957
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 218,
+                        "startLine": 192,
                         "startColumn": 4,
-                        "startOffset": 17613,
+                        "startOffset": 14590,
                         "endColumn": 110,
-                        "endOffset": 17719
+                        "endOffset": 14696
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 204,
+                    "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 15555,
+                    "startOffset": 14962,
                     "endColumn": 55,
-                    "endOffset": 15606
+                    "endOffset": 15013
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 219,
+                        "startLine": 193,
                         "startColumn": 4,
-                        "startOffset": 17724,
+                        "startOffset": 14701,
                         "endColumn": 55,
-                        "endOffset": 17775
+                        "endOffset": 14752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 15018,
+                    "endLine": 200,
+                    "endColumn": 12,
+                    "endOffset": 15120
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 14757,
+                        "endLine": 195,
+                        "endColumn": 12,
+                        "endOffset": 14859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 15125,
+                    "endLine": 204,
+                    "endColumn": 12,
+                    "endOffset": 15315
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 14864,
+                        "endLine": 199,
+                        "endColumn": 12,
+                        "endOffset": 15054
                     }
                 }
             },
@@ -1417,20 +1480,20 @@
                 "to": {
                     "startLine": 205,
                     "startColumn": 4,
-                    "startOffset": 15611,
+                    "startOffset": 15320,
                     "endLine": 206,
                     "endColumn": 12,
-                    "endOffset": 15713
+                    "endOffset": 15426
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 220,
+                        "startLine": 200,
                         "startColumn": 4,
-                        "startOffset": 17780,
-                        "endLine": 221,
+                        "startOffset": 15059,
+                        "endLine": 201,
                         "endColumn": 12,
-                        "endOffset": 17882
+                        "endOffset": 15165
                     }
                 }
             },
@@ -1438,20 +1501,58 @@
                 "to": {
                     "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 15718,
-                    "endLine": 210,
+                    "startOffset": 15431,
+                    "endLine": 208,
                     "endColumn": 12,
-                    "endOffset": 15908
+                    "endOffset": 15559
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 222,
+                        "startLine": 202,
                         "startColumn": 4,
-                        "startOffset": 17887,
-                        "endLine": 225,
+                        "startOffset": 15170,
+                        "endLine": 203,
                         "endColumn": 12,
-                        "endOffset": 18077
+                        "endOffset": 15298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 15564,
+                    "endColumn": 94,
+                    "endOffset": 15654
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 15303,
+                        "endColumn": 94,
+                        "endOffset": 15393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 15659,
+                    "endColumn": 90,
+                    "endOffset": 15745
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 15398,
+                        "endColumn": 90,
+                        "endOffset": 15484
                     }
                 }
             },
@@ -1459,20 +1560,37 @@
                 "to": {
                     "startLine": 211,
                     "startColumn": 4,
-                    "startOffset": 15913,
-                    "endLine": 212,
-                    "endColumn": 12,
-                    "endOffset": 16019
+                    "startOffset": 15750,
+                    "endColumn": 90,
+                    "endOffset": 15836
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 226,
+                        "startLine": 206,
                         "startColumn": 4,
-                        "startOffset": 18082,
-                        "endLine": 227,
-                        "endColumn": 12,
-                        "endOffset": 18188
+                        "startOffset": 15489,
+                        "endColumn": 90,
+                        "endOffset": 15575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 15841,
+                    "endColumn": 116,
+                    "endOffset": 15953
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 15580,
+                        "endColumn": 116,
+                        "endOffset": 15692
                     }
                 }
             },
@@ -1480,20 +1598,20 @@
                 "to": {
                     "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 16024,
+                    "startOffset": 15958,
                     "endLine": 214,
                     "endColumn": 12,
-                    "endOffset": 16152
+                    "endOffset": 16092
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 228,
+                        "startLine": 208,
                         "startColumn": 4,
-                        "startOffset": 18193,
-                        "endLine": 229,
+                        "startOffset": 15697,
+                        "endLine": 209,
                         "endColumn": 12,
-                        "endOffset": 18321
+                        "endOffset": 15831
                     }
                 }
             },
@@ -1501,201 +1619,142 @@
                 "to": {
                     "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 16157,
-                    "endColumn": 94,
-                    "endOffset": 16247
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 230,
-                        "startColumn": 4,
-                        "startOffset": 18326,
-                        "endColumn": 94,
-                        "endOffset": 18416
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 216,
-                    "startColumn": 4,
-                    "startOffset": 16252,
-                    "endColumn": 90,
-                    "endOffset": 16338
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 231,
-                        "startColumn": 4,
-                        "startOffset": 18421,
-                        "endColumn": 90,
-                        "endOffset": 18507
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 217,
-                    "startColumn": 4,
-                    "startOffset": 16343,
-                    "endLine": 221,
+                    "startOffset": 16097,
+                    "endLine": 217,
                     "endColumn": 12,
-                    "endOffset": 16647
+                    "endOffset": 16237
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 232,
-                        "startColumn": 4,
-                        "startOffset": 18512,
-                        "endLine": 236,
-                        "endColumn": 12,
-                        "endOffset": 18816
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 222,
-                    "startColumn": 4,
-                    "startOffset": 16652,
-                    "endColumn": 112,
-                    "endOffset": 16760
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 237,
-                        "startColumn": 4,
-                        "startOffset": 18821,
-                        "endColumn": 112,
-                        "endOffset": 18929
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 223,
-                    "startColumn": 4,
-                    "startOffset": 16765,
-                    "endColumn": 116,
-                    "endOffset": 16877
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 238,
-                        "startColumn": 4,
-                        "startOffset": 18934,
-                        "endColumn": 116,
-                        "endOffset": 19046
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 224,
-                    "startColumn": 4,
-                    "startOffset": 16882,
-                    "endLine": 225,
-                    "endColumn": 12,
-                    "endOffset": 17016
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 239,
-                        "startColumn": 4,
-                        "startOffset": 19051,
-                        "endLine": 240,
-                        "endColumn": 12,
-                        "endOffset": 19185
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 226,
-                    "startColumn": 4,
-                    "startOffset": 17021,
-                    "endLine": 228,
-                    "endColumn": 12,
-                    "endOffset": 17161
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 745,
+                        "startOffset": 764,
                         "endLine": 21,
                         "endColumn": 12,
-                        "endOffset": 885
+                        "endOffset": 906
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 229,
+                    "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 17166,
-                    "endLine": 235,
+                    "startOffset": 16242,
+                    "endLine": 227,
                     "endColumn": 12,
-                    "endOffset": 17514
+                    "endOffset": 16750
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 243,
+                        "startLine": 210,
                         "startColumn": 4,
-                        "startOffset": 19431,
-                        "endLine": 249,
+                        "startOffset": 15836,
+                        "endLine": 219,
                         "endColumn": 12,
-                        "endOffset": 19779
+                        "endOffset": 16344
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 236,
+                    "startLine": 228,
                     "startColumn": 4,
-                    "startOffset": 17519,
-                    "endLine": 242,
+                    "startOffset": 16755,
+                    "endLine": 237,
                     "endColumn": 12,
-                    "endOffset": 17879
+                    "endOffset": 17275
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
                     "position": {
-                        "startLine": 250,
+                        "startLine": 220,
                         "startColumn": 4,
-                        "startOffset": 19784,
-                        "endLine": 256,
+                        "startOffset": 16349,
+                        "endLine": 229,
                         "endColumn": 12,
-                        "endOffset": 20144
+                        "endOffset": 16869
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 243,
+                    "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 17884,
+                    "startOffset": 17280,
+                    "endLine": 247,
+                    "endColumn": 12,
+                    "endOffset": 17955
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 16874,
+                        "endLine": 239,
+                        "endColumn": 12,
+                        "endOffset": 17549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 17960,
+                    "endColumn": 56,
+                    "endOffset": 18012
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 17554,
+                        "endColumn": 56,
+                        "endOffset": 17606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 18017,
+                    "endColumn": 57,
+                    "endOffset": 18070
+                },
+                "from": {
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 17611,
+                        "endColumn": 57,
+                        "endOffset": 17664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 18075,
                     "endLine": 252,
                     "endColumn": 12,
-                    "endOffset": 18564
+                    "endOffset": 18229
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
-                        "startLine": 257,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 20149,
-                        "endLine": 266,
+                        "startOffset": 375,
+                        "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 20829
+                        "endOffset": 531
                     }
                 }
             },
@@ -1703,62 +1762,20 @@
                 "to": {
                     "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 18569,
-                    "endLine": 262,
+                    "startOffset": 18234,
+                    "endLine": 255,
                     "endColumn": 12,
-                    "endOffset": 19250
+                    "endOffset": 18388
                 },
                 "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\values-v21\\values-v21.xml",
-                    "position": {
-                        "startLine": 267,
-                        "startColumn": 4,
-                        "startOffset": 20834,
-                        "endLine": 276,
-                        "endColumn": 12,
-                        "endOffset": 21515
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 263,
-                    "startColumn": 4,
-                    "startOffset": 19255,
-                    "endLine": 265,
-                    "endColumn": 12,
-                    "endOffset": 19409
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 365,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 519
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 266,
-                    "startColumn": 4,
-                    "startOffset": 19414,
-                    "endLine": 268,
-                    "endColumn": 12,
-                    "endOffset": 19568
-                },
-                "from": {
-                    "file": "C:\\Projects\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "C:\\dev\\quSquared\\SkaterLeague\\mobile\\platforms\\android\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 585,
+                        "startOffset": 600,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 739
+                        "endOffset": 756
                     }
                 }
             }

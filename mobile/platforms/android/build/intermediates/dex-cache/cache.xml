@@ -2,53 +2,67 @@
 <items version="2" >
 
     <item
-        jar="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jar="C:\Users\Mike\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-22.2.1_aba984055c21d211ffd2d77e969b7b81b789b007.jar" />
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_84994ce11b1a7411fcb42061121445ddee38053b.jar" />
     </item>
     <item
-        jar="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-22.2.1_dbabbf64e5946a49e0929e7560eb7818bc852b4a.jar" />
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_a7bbb018cadc00dc363b662ec3760f16ab86c429.jar" />
     </item>
     <item
-        jar="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="f3064a6bb3bf091d8ef08a38816df98e4c033ce2">
-        <dex dex="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_602e8e59733a0bcbdbb82e78eb3917d85fa731a0.jar" />
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_2b4b5ed4fda8f5fd8283abbfe9550c2da0c01a89.jar" />
     </item>
     <item
-        jar="C:\Users\s0043831\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\SkaterLeague\runtime\unspecified\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-22.2.1_fc910aaf2482f2d47913b729f6f04f8d6adf5d50.jar" />
-    </item>
-    <item
-        jar="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\SkaterLeague\runtime\unspecified\jars\libs\binding-generator.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4290aba11bda501dbadc2dd5c4b08282c0bbfeb8">
-        <dex dex="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_a003398ce62d62373f96d2b652c12c5371a11109.jar" />
-    </item>
-    <item
-        jar="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-22.2.1_039e240cae8548fa3abe4ea80d275fc6bd2ea851.jar" />
-    </item>
-    <item
-        jar="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\SkaterLeague\runtime\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.3"
         sha1="9909ad5fcc13fcc60529cfa340ee7e0abc79af38">
-        <dex dex="C:\Projects\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\SkaterLeague-runtime-unspecified_2101f15fdf3f07e91fc2cb81fc4d672039ce8c77.jar" />
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\SkaterLeague-runtime-unspecified_643bceba1705cc8e716ce8094175e8844c87ef19.jar" />
+    </item>
+    <item
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_a6206130788e1d4bd76fc31d966a88b928f92d04.jar" />
+    </item>
+    <item
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\SkaterLeague\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4290aba11bda501dbadc2dd5c4b08282c0bbfeb8">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_fffd7508bdc9735962039c2426fcb35e5db60b75.jar" />
+    </item>
+    <item
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_dfe6f2e1b79de0f5afd85475dca3fd4aaa7e56ff.jar" />
+    </item>
+    <item
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f3064a6bb3bf091d8ef08a38816df98e4c033ce2">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_d1b3ce74c875ab13c218b88a9c0845f82664787c.jar" />
+    </item>
+    <item
+        jar="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\dev\quSquared\SkaterLeague\mobile\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_4add23e21c65d63ce3745214ccf38b819157fe25.jar" />
     </item>
 
 </items>
