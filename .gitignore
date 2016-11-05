@@ -25,4 +25,6 @@ mobile/app/global.d.ts
 mobile/platforms
 mobile/lib
 mobile/node_modules
-mobile/app/nativescript-angular
+mobile/app/nativescript-angula
+
+web/node_modules
