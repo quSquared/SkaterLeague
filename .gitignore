@@ -27,4 +27,8 @@ mobile/lib
 mobile/node_modules
 mobile/app/nativescript-angula
 
+server/node_modules
+
 web/node_modules
+
+

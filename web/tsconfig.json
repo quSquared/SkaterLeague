@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "module": "commonjs",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "out",
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "exclude": [
+        "out",
+        "node_modules",
+        "dist",
+        "dev",
+        "typings/main.d.ts",
+        "typings/main",
+        "reports"
+    ],
+    "version": "1.8.10"
+}
