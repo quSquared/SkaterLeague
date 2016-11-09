@@ -1,0 +1,14 @@
+<GridLayout>
+
+  <GridLayout #background
+    scaleX="1.4"
+    scaleY="1.4"></GridLayout>
+
+  <StackLayout #initialContainer
+    class="initial-container">
+    <Label text="Skater League" class="title"></Label>
+    
+    <Button text="Sign In" (tap)="onSignIn()"></Button>
+    <Button text="Sign Up" (tap)="onSignUp()"></Button>
+  </StackLayout>
+</GridLayout>

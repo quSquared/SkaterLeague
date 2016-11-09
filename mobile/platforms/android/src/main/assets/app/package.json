@@ -1,13 +1,13 @@
 {
     "private": false,
     "nativescript": {
-        "id": "org.nativescript.helloworldng"
+        "id": "org.nativescript.SkaterLeague"
     },
-    "name": "tns-template-hello-world-ng",
+    "name": "skater-league-app",
     "main": "main.js",
     "version": "2.3.4",
     "author": "Telerik <support@telerik.com>",
-    "description": "Nativescript Angular Hello World template",
+    "description": "Skater League Mobile App",
     "license": "BSD",
     "keywords": [
         "telerik",

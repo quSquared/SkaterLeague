@@ -1,8 +1,8 @@
 {
-  "description": "Skater League Mobile App",
+  "description": "Skater League Application",
   "license": "SEE LICENSE IN <your-license-filename>",
   "readme": "NativeScript Application",
-  "repository": "https://github.com/quSquared/SkaterLeague.git",
+  "repository": "<fill-your-repository-here>",
   "nativescript": {
     "id": "org.nativescript.SkaterLeague",
     "tns-android": {
