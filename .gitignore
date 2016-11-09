@@ -1,31 +1,13 @@
-/bin/dist
-/node_modules
-/tags
-/**/*.js.map
-/**/*.metadata.json
-
-/hooks
-
-/nativescript-angular/**/*.d.ts
-/!nativescript-angular/global.d.ts
-/nativescript-angular/**/*.js
-/!nativescript-angular/postinstall.js
-/!nativescript-angular/hooks/**/*.js
-/!nativescript-angular/gulpfile.js
-
-.tscache
-.nvm
-.vscode
-.DS_Store
-npm-debug.log
-nativescript-angular*.tgz
+mobile/npm-debug.log
+mobile/.DS_Store
 
 mobile/app/**/*.js
-mobile/app/global.d.ts
-mobile/platforms
-mobile/lib
-mobile/node_modules
-mobile/app/nativescript-angula
+mobile/hooks/
+mobile/lib/
+mobile/node_modules/
+mobile/platforms/
+mobile/tmp/
+mobile/typings/
 
 server/node_modules
 

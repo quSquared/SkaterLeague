@@ -35,7 +35,7 @@
   "_id": "tns-core-modules@2.3.0",
   "_shasum": "8484a6a639cdcf845326e874f438b081a1c35900",
   "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-2.3.0.tgz",
-  "_from": "tns-core-modules@2.3.0",
+  "_from": "tns-core-modules@latest",
   "scripts": {},
   "_npmVersion": "3.10.3",
   "_nodeVersion": "6.4.0",
@@ -101,5 +101,6 @@
     "host": "packages-12-west.internal.npmjs.com",
     "tmp": "tmp/tns-core-modules-2.3.0.tgz_1473938931074_0.6924647802952677"
   },
-  "directories": {}
+  "directories": {},
+  "readme": "ERROR: No README data found!"
 }
