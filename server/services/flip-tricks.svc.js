@@ -1,8 +1,10 @@
 'use strict';
 
+var DbConnect = require('../dbConnect/dbConnect');
+
 class FlipTricksSvc {
-    constructor (DbConnect) {
-        this.DbConnect = DbConnect;
+    constructor () {
+        this.DbConnect = DbConnect();
     }
 
     getAll (cb) {

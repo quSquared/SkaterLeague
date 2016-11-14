@@ -2,18 +2,16 @@
 
 var FlipTricksSvc = require('./../services/flip-tricks.svc');
 
-module.exports = function (server, DbConnect) {
-    let FlipTricksRequest = new FlipTricksSvc(DbConnect);
+module.exports = function (router) {
+    let FlipTricksRequest = new FlipTricksSvc();
 
-    server.get('/flipTricks', function (req, res, next) {
-        function cb (err, result) {
+    router.route('/flipTricks').get(function (req, res, next) {
+        FlipTricksRequest.getAll(function (err, result) {
             if (err) {
-                res.send(500, err)
+                res.status(500).send(err)
             };
             
-            res.send(200, result);
-        }
-
-        FlipTricksRequest.getAll(cb);
+            res.status(200).send(result);
+        });
     });
 }

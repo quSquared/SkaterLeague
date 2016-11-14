@@ -15,7 +15,8 @@ module.exports = function () {
     
     pool.getConnection(function(err, connection){
       if (err) {
-        res.json({"code" : 100, "status" : "Error in connection database"});
+        console.log('ERROR', {"code" : 100, "status" : "Error in connection database"});
+        cb(err, []);
         return;
       }   
 
@@ -28,8 +29,9 @@ module.exports = function () {
       });      
 
       connection.on('error', function(err) {      
-            res.json({"code" : 100, "status" : "Error in connection database"});
-            return;     
+        console.log('ERROR', {"code" : 100, "status" : "Error in connection database"});
+        cb(err, []);
+        return;     
       });
   });
 }
