@@ -1,4 +1,4 @@
-import { AuthGuardSvc } from "./services/auth-guard.svc";
+import { AuthGuardSvc } from "./services";
 
 export const AuthProviders = [
   AuthGuardSvc

@@ -7,10 +7,14 @@
     },
     "dependencies": {    
         "body-parser": "1.0.x",
+        "connect-ensure-login": "^0.1.1",
         "cookie-parser": "1.0.x",
         "debug": "0.7.x",
+        "dotenv": "^1.2.0",
         "lodash": "4.13.x",
         "mysql": "2.12.x",
+        "passport": "0.3.x",
+        "passport-google-oauth": "1.0.x",
         "restify": "4.0.x"
     },
     "devDependencies": {

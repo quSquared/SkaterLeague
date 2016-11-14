@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Router, CanActivate } from "@angular/router";
 
-import { BackendService } from "./backend.svc";
+import { BackendService } from "./../services";
 
 @Injectable()
 export class AuthGuardSvc implements CanActivate {
