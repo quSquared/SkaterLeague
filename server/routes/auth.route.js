@@ -20,6 +20,11 @@ router.route('/auth/google').get(
 router.route('/auth/google/callback').get( 
   passport.authenticate('google', { failureRedirect: '/login' }),
   function(req, res) {
+    console.log('google callback');
     res.redirect('/');
+  });
+
+  router.route('/oauth2callback').get(function (req, res, next) {
+    res.json({ message: 'You are authenticated!' });   
   });
 }
