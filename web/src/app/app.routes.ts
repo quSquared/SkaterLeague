@@ -1,3 +1,3 @@
 export const AppRoutes = [
-  { path: "", redirectTo: "/sign-in", pathMatch: "full" }
+  { path: "", redirectTo: "/", pathMatch: "full" }
 ];

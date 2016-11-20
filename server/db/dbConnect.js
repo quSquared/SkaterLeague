@@ -11,7 +11,9 @@ module.exports = function () {
 		database: 'skater_league'
 	});
 
-	function poolManagerQuery(args1, args2, args3) {
+	function poolManagerQuery(args1, args2, args3, single) {
+		var query;
+
 		pool.getConnection(function (err, connection) {
 			if (err) {
 				console.log('ERROR', { "code": 100, "status": "Error in connection database" });
@@ -22,19 +24,20 @@ module.exports = function () {
 			console.log('connected as id ' + connection.threadId);
 
 			if (typeof (args2) == 'function') {
-				connection.query(args1, function (err, rows, fields) {
+				query = connection.query(args1, function (err, rows, fields) {
 					connection.release();
-
-					args2(err, rows);
+					var result = single ? rows[0] : rows; 
+					args2(err, result);
 				});
 			}
 			else {
-				connection.query(args1, args2, function (err, rows, fields) {
+				query = connection.query(args1, args2, function (err, rows, fields) {
 					connection.release();
-
-					args3(err, rows);
+					var result = single ? rows[0] : rows;
+					args3(err, result);
 				});
 			}
+			console.log(query.sql);
 
 			connection.on('error', function (err) {
 				console.log('ERROR', { "code": 100, "status": "Error in connection database" });
@@ -47,6 +50,9 @@ module.exports = function () {
 	return {
 		query: function (args1, args2, args3) {
 			poolManagerQuery(args1, args2, args3);
+		},
+		querySingle: function (args1, args2, args3) {
+			poolManagerQuery(args1, args2, args3, 1);
 		}
 	}
 }

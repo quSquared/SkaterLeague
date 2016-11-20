@@ -2,17 +2,17 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule }  from '@angular/common';
 
-import { SignInRoutes } from "./sign-in.routes";
-import { SignInComponent } from "./sign-in.comp";
+import { SplashRoutes } from "./splash.routes";
+import { SplashComponent } from "./splash.comp";
 
 @NgModule({
   imports: [
     CommonModule,
 		FormsModule,
-    SignInRoutes
+    SplashRoutes
   ],
   declarations: [
-    SignInComponent
+    SplashComponent
   ]
 })
-export class SignInModule { }
+export class SplashModule { }

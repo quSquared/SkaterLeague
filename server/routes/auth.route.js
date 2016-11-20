@@ -1,9 +1,11 @@
 'use strict';
 
 var passport = require('passport');
+var AuthSvc = require('./../services/auth.svc');
 var UserModel = require('./../models/user');
 
 module.exports = function (router) {
+	var AuthRequest = new AuthSvc();
 
 	// GET /auth/google
 	//   Use passport.authenticate() as route middleware to authenticate the
@@ -31,23 +33,19 @@ module.exports = function (router) {
 	});
 
 	router.route('/register').post(function (req, res, next) {
-		let user = new UserModel(req.body);
+		AuthRequest.register(req.body, function (err, token) {
+			if (err) {
+				res.status(404).json(err);
+				return;
+			}
 
-		user.password = user.generateHash(user.password);
-		console.log('password', user.password);
-
-		let token = user.generateJwt();
-
-		res.status(200);
-		res.json({ "token": token });
+			res.status(200).json({ "token": token });
+		});
 	});
 
 	router.route('/login').post(function (req, res, next) {
-		console.log("body parsing", req.body);
 		passport.authenticate('local', function (err, user, info) {
 			let token;
-			console.log('user', user);
-
 
 			// If Passport throws/catches an error
 			if (err) {
@@ -58,8 +56,7 @@ module.exports = function (router) {
 			// If a user is found
 			if (user) {
 				token = user.generateJwt();
-				res.status(200);
-				res.json({
+				res.status(200).json({
 					"token": token
 				});
 			}

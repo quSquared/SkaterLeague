@@ -1,26 +1,22 @@
 'use strict';
 
-var DbConnect = require('../dbConnect/dbConnect');
+var DbConnect = require('../db/dbConnect');
 
-class UsersSvc {
+class UserSvc {
 	constructor() {
 		this.DbConnect = DbConnect();
 	}
 
 	getAll(cb) {
-		return this.DbConnect.query('SELECT * FROM user', cb);
+		return this.DbConnect.query('SELECT * FROM USER', cb);
 	}
 
 	getById(id, cb) {
-		return this.DbConnect.query('SELECT * FROM user WHERE `ID`=?', [id], cb);
+		return this.DbConnect.querySingle('SELECT * FROM USER WHERE `ID` = ?', [id], cb);
 	}
 
 	getByUsername(username, cb) {
-		cb(null, {
-			email: 'test@email.com',
-			password: 'asdf'
-		});
-		//return this.DbConnect.query('SELECT * FROM user WHERE `EMAIL`=?', [username], cb);
+		return this.DbConnect.querySingle('SELECT * FROM USER WHERE `EMAIL` = ?', [username], cb);
 	}
 
 	save(user, cb) {
@@ -28,4 +24,4 @@ class UsersSvc {
 	}
 }
 
-module.exports = UsersSvc;
+module.exports = UserSvc;

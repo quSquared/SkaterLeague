@@ -1,6 +1,6 @@
 import { Component, OnInit, NgZone } from '@angular/core';
+import {NgForm} from '@angular/forms';
 import { SignInService } from './sign-in.svc';
-
 @Component({
 	selector: 'sl-sign-in',
 	templateUrl: './sign-in.html',
@@ -10,9 +10,10 @@ import { SignInService } from './sign-in.svc';
 export class SignInComponent implements OnInit {
 	errorMessage: string;
 
-	constructor(private signInService: SignInService, private zone: NgZone) {
+	constructor(
+		private signInService: SignInService, 
+		private zone: NgZone) {		
 		// this.zone.run(() => {
-		//   console.log('jquery');
 		//   $.proxy(this.onGoogleLoginSuccess, this);
 		// });
 	}
@@ -23,7 +24,6 @@ export class SignInComponent implements OnInit {
 
 	ngAfterViewInit() {
 		// Component views are initialized
-		console.log('ngAfterViewInit');
 		// gapi.signin2.render('my-signin2', {
 		//   'scope': 'profile email',
 		//   'width': 240,
@@ -32,6 +32,20 @@ export class SignInComponent implements OnInit {
 		//   'theme': 'light',
 		//   'onsuccess': params => this.onGoogleLoginSuccess(params)
 		// });
+	}
+
+	signIn(f: NgForm) {
+		let user = {
+			email: f.value.email,
+			password: f.value.password
+		};
+
+		this.signInService.login(user)
+			.subscribe(
+				response => {
+					console.log('token', response);
+				},			
+				error => this.errorMessage = <any>error);
 	}
 
 	signInWithGoogle() {
@@ -50,19 +64,5 @@ export class SignInComponent implements OnInit {
 			console.log('Image URL: ' + profile.getImageUrl());
 			console.log('Email: ' + profile.getEmail());
 		});
-	}
-
-	signIn() {
-		this.signInService.authenticate()
-			.subscribe(
-			response => console.log('authenticate', response),
-			error => this.errorMessage = <any>error);
-	}
-
-	getFlipTricks() {
-		this.signInService.getFlipTricks()
-			.subscribe(
-			response => console.log('flipTricks', response),
-			error => this.errorMessage = <any>error);
 	}
 }

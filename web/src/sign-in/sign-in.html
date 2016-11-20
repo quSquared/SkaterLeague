@@ -1,9 +1,10 @@
 <div class="sign-in">
-    Sign In
-
-    <button (click)="signInWithGoogle()">Google</button>
-    
-    <button (click)="getFlipTricks()">Flip Tricks</button>
-
-    <div class="g-signin2"></div>
+	Sign In
+	<form #loginForm="ngForm" (ngSubmit)="signIn(loginForm)">
+		<input name="email" ngModel required #email="ngModel" placeholder="Email">
+		<br/>
+		<input name="password" ngModel required #password="ngModel" placeholder="Password">
+		<br/>
+		<button type="submit">Sign In</button>
+	</form>
 </div>

@@ -1,6 +1,6 @@
 'use strict';
 
-var DbConnect = require('../dbConnect/dbConnect');
+var DbConnect = require('../db/dbConnect');
 
 class FlipTrickSvc {
 	constructor() {

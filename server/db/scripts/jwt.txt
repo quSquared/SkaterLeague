@@ -1,0 +1,6 @@
+CREATE TABLE `jwt` (
+  `email` varchar(255) NOT NULL,
+  `token` varchar(255) NOT NULL,
+  `expireDate` date NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -5,30 +5,11 @@ import { Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 @Injectable()
-export class SignInService {
-	private signUrl = 'api/auth/google';
+export class SignUpService {
+	constructor(private http: Http) { }
 
-	constructor(private http: Http) { }	
-
-	login(user): Observable<any> {
-		return this.http.post('api/login', user)
-			.map(this.extractData)
-			.catch(this.handleError);
-	}
-
-	googleAuth(): Observable<any> {
-		return this.http.get('https://accounts.google.com/o/oauth2/v2/auth' +
-			'?scope=email%20profile' +
-			'&prompt=select_account' +
-			'&state=%2Fprofile' +
-			'&redirect_uri=http://localhost:3000/api/oauth2callback' +
-			'&response_type=token&client_id=1021813975482-a5gslll0cbgn5bivojbhivek2i5eg8hv.apps.googleusercontent.com')
-			.map(this.extractData)
-			.catch(this.handleError);
-	}
-
-	authenticate(): Observable<any> {
-		return this.http.get(this.signUrl)
+	register(user): Observable<any> {
+		return this.http.post('api/register', user)
 			.map(this.extractData)
 			.catch(this.handleError);
 	}
