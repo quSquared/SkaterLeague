@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+// Controls the rendering size of tabs in characters.
+// If set to auto, the value will be guessed based on the opened file.
+"editor.tabSize": 2,
+"editor.detectIndentation": false,
+"editor.insertSpaces": false
+}

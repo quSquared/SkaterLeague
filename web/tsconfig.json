@@ -16,8 +16,6 @@
         "node_modules",
         "dist",
         "dev",
-        "typings/main.d.ts",
-        "typings/main",
         "reports"
     ],
     "version": "1.8.10"

@@ -10,6 +10,17 @@ export class SignInService {
 
     constructor (private http: Http) {}
 
+    googleAuth (): Observable<any> {
+        return this.http.get('https://accounts.google.com/o/oauth2/v2/auth'+
+            '?scope=email%20profile'+
+            '&prompt=select_account'+
+            '&state=%2Fprofile'+
+            '&redirect_uri=http://localhost:3000/api/oauth2callback'+
+            '&response_type=token&client_id=1021813975482-a5gslll0cbgn5bivojbhivek2i5eg8hv.apps.googleusercontent.com')
+                        .map(this.extractData)
+                        .catch(this.handleError);
+    }
+
     authenticate (): Observable<any> {
         return this.http.get(this.signUrl)
                         .map(this.extractData)
