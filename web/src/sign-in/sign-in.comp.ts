@@ -1,6 +1,7 @@
 import { Component, OnInit, NgZone } from '@angular/core';
-import {NgForm} from '@angular/forms';
+import { NgForm } from '@angular/forms';
 import { SignInService } from './sign-in.svc';
+
 @Component({
 	selector: 'sl-sign-in',
 	templateUrl: './sign-in.html',
@@ -8,11 +9,13 @@ import { SignInService } from './sign-in.svc';
 	styleUrls: ['./sign-in.scss']
 })
 export class SignInComponent implements OnInit {
+	emailLabel: string = 'Email';
+	passwordLabel: string = 'Password';
 	errorMessage: string;
 
 	constructor(
-		private signInService: SignInService, 
-		private zone: NgZone) {		
+		private signInService: SignInService,
+		private zone: NgZone) {
 		// this.zone.run(() => {
 		//   $.proxy(this.onGoogleLoginSuccess, this);
 		// });
@@ -42,10 +45,10 @@ export class SignInComponent implements OnInit {
 
 		this.signInService.login(user)
 			.subscribe(
-				response => {
-					console.log('token', response);
-				},			
-				error => this.errorMessage = <any>error);
+			response => {
+				console.log('token', response);
+			},
+			error => this.errorMessage = <any>error);
 	}
 
 	signInWithGoogle() {

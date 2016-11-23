@@ -7,7 +7,6 @@ import {NgForm} from '@angular/forms';
 	styleUrls: ['./splash.scss']
 })
 export class SplashComponent implements OnInit {
-	errorMessage: string;
 
 	constructor() {		
 	}
