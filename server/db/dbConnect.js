@@ -2,14 +2,18 @@
 
 var mysql = require('mysql');
 
+var dbConfig = require('../config/database.config');
+
 module.exports = function () {
-	let pool = mysql.createPool({
-		connectionLimit: 10,
-		host: 'localhost',
-		user: 'root',
-		password: 'qSqrdSk@t3L3@gu3',
-		database: 'skater_league'
-	});
+	let pool = mysql.createPool(dbConfig);
+
+	return {
+		query: poolManagerQuery,
+		querySingle: function (args1, args2, args3) {
+			poolManagerQuery(args1, args2, args3, 1);
+		},
+		destroy: destroy
+	}
 
 	function poolManagerQuery(args1, args2, args3, single) {
 		var query;
@@ -24,14 +28,14 @@ module.exports = function () {
 			console.log('connected as id ' + connection.threadId);
 
 			if (typeof (args2) == 'function') {
-				query = connection.query(args1, function (err, rows, fields) {
+				query = connection.query({ sql: args1, timeout: 30000 }, function (err, rows, fields) {
 					connection.release();
-					var result = single ? rows[0] : rows; 
+					var result = single ? rows[0] : rows;
 					args2(err, result);
 				});
 			}
 			else {
-				query = connection.query(args1, args2, function (err, rows, fields) {
+				query = connection.query({ sql: args1, values: args2, timeout: 30000 }, function (err, rows, fields) {
 					connection.release();
 					var result = single ? rows[0] : rows;
 					args3(err, result);
@@ -47,12 +51,10 @@ module.exports = function () {
 		});
 	}
 
-	return {
-		query: function (args1, args2, args3) {
-			poolManagerQuery(args1, args2, args3);
-		},
-		querySingle: function (args1, args2, args3) {
-			poolManagerQuery(args1, args2, args3, 1);
-		}
+	function destroy() {
+		pool.end(function (err) {
+			// all connections in the pool have ended
+			console.log('pool destroyed');
+		});
 	}
 }

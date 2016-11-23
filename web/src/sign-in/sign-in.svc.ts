@@ -36,7 +36,7 @@ export class SignInService {
 	private extractData(res: Response) {
 		let body = res.json();
 		console.log('body', body);
-		return body.data || {};
+		return body || {};
 	}
 
 	private handleError(error: Response | any) {
