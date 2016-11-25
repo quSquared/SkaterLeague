@@ -9,8 +9,6 @@ import { SignInService } from './sign-in.svc';
 	styleUrls: ['./sign-in.scss']
 })
 export class SignInComponent implements OnInit {
-	emailLabel: string = 'Email';
-	passwordLabel: string = 'Password';
 	errorMessage: string;
 
 	constructor(

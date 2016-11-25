@@ -1,17 +1,18 @@
 $qu-primary-primary-bg: white !default;
 $qu-primary-primary-color: black !default;
 
-.qu-button {
+.qu-link {
 
-	button {
+	a {
 		font-size: 13.3333px;
+		text-decoration: none;
 	}
 
-	button {	
+	a {	
 		cursor: pointer;
 		position: relative;
 
-		display: block;
+		display: inline-block;
 		margin: auto;
 		padding: 0;
 
@@ -28,15 +29,15 @@ $qu-primary-primary-color: black !default;
 		transition: background-color .3s;
 	}
 
-	button:hover, button:focus {
+	a:hover, a:focus {
 		background-color: $qu-primary-primary-bg;
 	}
 
-	button > * {
+	a > * {
 		position: relative;
 	}
 
-	button span {
+	a span {
 		display: block;
 		padding: 12px 24px;
 	}

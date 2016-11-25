@@ -1,0 +1,36 @@
+$qu-primary-primary-bg: #f44336;
+$qu-primary-primary-color: #ecf0f1;
+
+.splash {	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: #f44336; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#ff766c, #ff685d, #f44336); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#ff766c, #ff685d, #f44336); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#ff766c, #ff685d, #f44336); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#ff766c, #ff685d, #f44336); /* Standard syntax */
+	
+	h1 {
+		color: white;
+		margin: 0;
+		font-weight: 100;
+	}
+
+	&-logo {
+		height: 200px;
+		width: 200px;
+		background-image: url('../../img/SL-logo-black.png');
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-origin: border-box;
+		background-size: cover;
+	}
+
+	&-actions {
+		a {
+			width: 200px;
+		}
+	}
+}

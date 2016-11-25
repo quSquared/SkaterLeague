@@ -2,10 +2,10 @@ import { Component, Input } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 @Component({
-	selector: 'qu-button',
-	templateUrl: './button.html'
+	selector: 'qu-link',
+	templateUrl: './link.html'
 })
-export class ButtonComponent {
+export class LinkComponent {
 	@Input() qlHref? : string;
 
 	constructor() {

@@ -3,8 +3,7 @@ import {NgForm} from '@angular/forms';
 
 @Component({
 	selector: 'sl-splash',
-	templateUrl: './splash.html',
-	styleUrls: ['./splash.scss']
+	templateUrl: './splash.html'
 })
 export class SplashComponent implements OnInit {
 

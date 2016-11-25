@@ -1,7 +1,18 @@
+$qu-primary-primary-bg: #f44336;
+$qu-primary-primary-color: #ecf0f1;
+
 .app {
-  padding: 1em;
+	height: calc(100% - 50px);
   padding-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   display: block;
 }
+
+.app > * > * {
+	height: 100%;
+}
+
+@import '../../quSquared/quSquared';
+
+@import '../splash/splash';

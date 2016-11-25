@@ -1,11 +1,18 @@
 <div class="sign-up">   
-	Sign Up 
+	<h3>Sign Up</h3> 
   <form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm)">
-		<input name="email" ngModel required #email="ngModel" placeholder="Email">
+		<qu-input-container [placeholder]="'Email'">
+			<input name="email" ngModel required #email="ngModel">
+		</qu-input-container>
 		<br/>	
-		<input name="password" ngModel required #password="ngModel" placeholder="Password">
+		<qu-input-container [placeholder]="'Password'">
+			<input name="password" ngModel required #password="ngModel">
+		</qu-input-container>
 		<br/>
-		<input name="passwordConfirm" ngModel required #passwordConfirm="ngModel" placeholder="Confirm Password">
-		<button type="submit">Sign Up</button>
+		<qu-input-container [placeholder]="'Confirm Password'">
+			<input name="passwordConfirm" ngModel required #passwordConfirm="ngModel">
+		</qu-input-container>
+		<br/>
+		<qu-button type="submit">Sign Up</qu-button>
   </form>	
 </div>

@@ -1,12 +1,12 @@
 <div class="sign-in">
-	Sign In
+	<h3>Sign In</h3>
 	<form #loginForm="ngForm" (ngSubmit)="signIn(loginForm)">
-		<qu-input-container [placeholder]="emailLabel">
+		<qu-input-container [placeholder]="'Email'">
 			<input name="email" ngModel required #email="ngModel">
 		</qu-input-container>
 		<br/>
-		<qu-input-container [placeholder]="passwordLabel">
-			<input name="password" ngModel required #password="ngModel">
+		<qu-input-container [placeholder]="'Password'">
+			<input type="password" name="password" ngModel required #password="ngModel">
 		</qu-input-container>
 		<br/>
 		<qu-button type="submit">Sign In</qu-button>
