@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule }  from '@angular/platform-browser';
 import { HttpModule, JsonpModule }  from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
+import { ButtonModule, InputContainerModule, LinkModule } from '../../quSquared';
+
 import { AppRoutes } from './app.routes';
 import { AppComponent } from './app.comp';
 import { HeaderComponent } from '../header/header.comp';
+import { HomeModule } from '../home/home.module';
+import { ProfileModule } from '../profile/profile.module';
 import { SignInModule } from '../sign-in/sign-in.module';
 import { SignUpModule } from '../sign-up/sign-up.module';
 import { SplashModule } from '../splash/splash.module';
@@ -17,6 +21,11 @@ import { SplashModule } from '../splash/splash.module';
 		FormsModule,
     HttpModule,
     JsonpModule,
+		ButtonModule,		
+		InputContainerModule,
+		LinkModule,
+		HomeModule,
+		ProfileModule,
     SignInModule,
 		SignUpModule,
 		SplashModule,

@@ -1,17 +1,17 @@
 import { Component, OnInit, NgZone } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { Router } from "@angular/router";
 import { SignInService } from './sign-in.svc';
 
 @Component({
 	selector: 'sl-sign-in',
 	templateUrl: './sign-in.html',
-	providers: [SignInService],
-	styleUrls: ['./sign-in.scss']
+	providers: [SignInService]
 })
 export class SignInComponent implements OnInit {
 	errorMessage: string;
 
 	constructor(
+		private router: Router,
 		private signInService: SignInService,
 		private zone: NgZone) {
 		// this.zone.run(() => {
@@ -35,15 +35,11 @@ export class SignInComponent implements OnInit {
 		// });
 	}
 
-	signIn(f: NgForm) {
-		let user = {
-			email: f.value.email,
-			password: f.value.password
-		};
-
+	signIn(user: any) {
 		this.signInService.login(user)
 			.subscribe(
 			response => {
+				this.router.navigate(['home']);
 				console.log('token', response);
 			},
 			error => this.errorMessage = <any>error);

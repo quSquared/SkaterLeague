@@ -16,7 +16,7 @@ $qu-primary-primary-color: black !default;
 			
 		border-radius: 100%;
 		
-		background-color: rgba(236, 240, 241, .3);
+		background-color: rgba($qu-primary-primary-color, .098);
 		
 		-webkit-transform: translate(-50%, -50%);
 		-moz-transform: translate(-50%, -50%);
@@ -29,6 +29,14 @@ $qu-primary-primary-color: black !default;
 		width: 120%;
 		padding-top: 120%;
 		
-		transition: width .2s ease-out, padding-top .2s ease-out;
+		transition: width .35s ease-out, padding-top .35s ease-out;
+	}
+}
+
+.qu-secondary {
+	.qu-ripple {	
+		&:before {
+		background-color: rgba($qu-primary-primary-bg, .098);
+		}
 	}
 }

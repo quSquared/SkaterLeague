@@ -15,4 +15,11 @@ $qu-primary-primary-color: #ecf0f1;
 
 @import '../../quSquared/quSquared';
 
+@import '../header/header';
+@import '../home/home';
+@import '../profile/profile-create/profile-create';
+@import '../profile/profile-edit/profile-edit';
+@import '../profile/profile-view/profile-view';
+@import '../sign-in/sign-in';
+@import '../sign-up/sign-up';
 @import '../splash/splash';

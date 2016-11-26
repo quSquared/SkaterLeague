@@ -1,0 +1,20 @@
+<div class="profile-create">
+	<div class="profile-create-container qu-whiteframe-6">
+		<h1>Create Account</h1>
+		<form #profileForm="ngForm" (ngSubmit)="createProfile(profileForm.value)">
+			<qu-input-container [placeholder]="'Display Name'">
+				<input name="displayName" ngModel required #displayName="ngModel">
+			</qu-input-container>
+			<br/>	
+			<qu-input-container [placeholder]="'First Name'">
+				<input name="firstName" ngModel required #firstName="ngModel">
+			</qu-input-container>
+			<br/>
+			<qu-input-container [placeholder]="'Last Name'">
+				<input name="lastName" ngModel required #lastName="ngModel">
+			</qu-input-container>
+			<br/>
+			<qu-button type="submit" class="qu-raised qu-primary">Create</qu-button>
+		</form>
+	</div>	
+</div>

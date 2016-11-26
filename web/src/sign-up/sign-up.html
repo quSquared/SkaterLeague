@@ -1,18 +1,21 @@
 <div class="sign-up">   
-	<h3>Sign Up</h3> 
-  <form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm)">
-		<qu-input-container [placeholder]="'Email'">
-			<input name="email" ngModel required #email="ngModel">
-		</qu-input-container>
-		<br/>	
-		<qu-input-container [placeholder]="'Password'">
-			<input name="password" ngModel required #password="ngModel">
-		</qu-input-container>
-		<br/>
-		<qu-input-container [placeholder]="'Confirm Password'">
-			<input name="passwordConfirm" ngModel required #passwordConfirm="ngModel">
-		</qu-input-container>
-		<br/>
-		<qu-button type="submit">Sign Up</qu-button>
-  </form>	
+	<div class="sign-up-container qu-whiteframe-6">
+		<h1>Skater League</h1>
+		<div class="sign-up-logo"></div>
+		<form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm.value)">
+			<qu-input-container [placeholder]="'Email'">
+				<input name="email" ngModel required #email="ngModel">
+			</qu-input-container>
+			<br/>	
+			<qu-input-container [placeholder]="'Password'">
+				<input name="password" ngModel required #password="ngModel">
+			</qu-input-container>
+			<br/>
+			<qu-input-container [placeholder]="'Confirm Password'">
+				<input name="passwordConfirm" ngModel required #passwordConfirm="ngModel">
+			</qu-input-container>
+			<br/>
+			<qu-button type="submit" class="qu-raised qu-primary">Sign Up</qu-button>
+		</form>
+	</div>	
 </div>

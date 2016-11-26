@@ -1,6 +1,49 @@
 .sign-up {    
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	flex-direction: column;
 	align-items: center;
+
+	&-container {
+		background-color: whitesmoke;
+
+		width: 320px;
+		padding: 16px;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1 {
+		font-weight: 100;
+		margin: 0;
+	}
+
+	&-logo {
+		height: 230px;
+		width: 200px;
+		background-image: url('../../img/SL-logo-black.png');
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-origin: border-box;
+		background-size: cover;
+    /*-webkit-animation: flip 5s infinite linear;
+    animation: flip 5s infinite linear;*/
+	}
+
+	.qu-button {
+		width: 238px;
+	}
+}
+
+@-webkit-keyframes flip {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes flip {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
 }
