@@ -1,7 +1,7 @@
 $qu-primary-primary-bg: white !default;
 $qu-primary-primary-color: black !default;
 
-.button {
+.qu-button-container {
 	display: inline-block;
 	margin-bottom: 5px;
 
@@ -20,10 +20,9 @@ $qu-primary-primary-color: black !default;
 		border-width: 0;
 		outline: none;
 		border-radius: 2px;
-		
-		
-		background-color: $qu-primary-primary-bg;
-		color: $qu-primary-primary-color;
+				
+		background-color: white;
+		color: black;
 	}
 
 	button > * {
@@ -41,7 +40,14 @@ $qu-primary-primary-color: black !default;
 	}
 }
 
-.qu-secondary > .button {
+.qu-primary > .qu-button-container {
+	button {
+		background-color: $qu-primary-primary-bg;
+		color: $qu-primary-primary-color;		
+	}
+}
+
+.qu-secondary > .qu-button-container {
 	button {
 		background-color: $qu-primary-primary-color;
 		color: $qu-primary-primary-bg;
@@ -50,7 +56,7 @@ $qu-primary-primary-color: black !default;
 	}
 }
 
-.qu-raised > .button {
+.qu-raised > .qu-button-container {
 	button {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
 		-webkit-transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
