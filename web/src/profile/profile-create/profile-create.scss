@@ -1,7 +1,4 @@
 .profile-create {    
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 
 	&-container {
 		background-color: whitesmoke;
@@ -10,9 +7,6 @@
 		padding: 16px;
     margin: 16px;
 		
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
 	}
 
 	form {

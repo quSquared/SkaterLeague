@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule }  from '@angular/common';
 
-import { LinkModule } from '../../quSquared';
+import { QuSquaredModule } from '../../quSquared';
 
 import { SplashRoutes } from "./splash.routes";
 import { SplashComponent } from "./splash.comp";
@@ -12,7 +12,7 @@ import { SplashComponent } from "./splash.comp";
     CommonModule,
 		FormsModule,
     SplashRoutes,
-		LinkModule
+		QuSquaredModule
   ],
   declarations: [
     SplashComponent

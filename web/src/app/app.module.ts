@@ -4,7 +4,7 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { HttpModule, JsonpModule }  from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
-import { ButtonModule, InputContainerModule, LinkModule } from '../../quSquared';
+import { QuSquaredModule } from '../../quSquared';
 
 import { AppRoutes } from './app.routes';
 import { AppComponent } from './app.comp';
@@ -21,9 +21,7 @@ import { SplashModule } from '../splash/splash.module';
 		FormsModule,
     HttpModule,
     JsonpModule,
-		ButtonModule,		
-		InputContainerModule,
-		LinkModule,
+    QuSquaredModule,
 		HomeModule,
 		ProfileModule,
     SignInModule,
@@ -34,6 +32,8 @@ import { SplashModule } from '../splash/splash.module';
   declarations: [
     AppComponent,
     HeaderComponent
+  ],
+  providers: [
   ],
   bootstrap: [ AppComponent ]
 })

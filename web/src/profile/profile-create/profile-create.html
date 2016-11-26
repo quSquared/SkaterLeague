@@ -1,5 +1,5 @@
-<div class="profile-create">
-	<div class="profile-create-container qu-whiteframe-6">
+<div class="profile-create" quFlexRow [quFlexAlign]="'center'">
+	<div class="profile-create-container qu-whiteframe-6" quFlexColumn [quFlexAlign]="'start start'">
 		<h1>Create Account</h1>
 		<form #profileForm="ngForm" (ngSubmit)="createProfile(profileForm.value)">
 			<qu-input-container [placeholder]="'Display Name'">

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule }  from '@angular/common';
 
-import { ButtonModule, InputContainerModule } from '../../quSquared';
+import { QuSquaredModule } from '../../quSquared';
 
 import { SignUpRoutes } from "./sign-up.routes";
 import { SignUpComponent } from "./sign-up.comp";
@@ -12,8 +12,7 @@ import { SignUpComponent } from "./sign-up.comp";
     CommonModule,
 		FormsModule,
     SignUpRoutes,
-		ButtonModule,
-		InputContainerModule
+		QuSquaredModule
   ],
   declarations: [
     SignUpComponent

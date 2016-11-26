@@ -3,7 +3,7 @@ export class Profile {
 	firstName: string;
 	lastName: string;
   displayName: string;
-	age: string;
+	birthDate: Date;
 	state: string;
 	country: string;
 }

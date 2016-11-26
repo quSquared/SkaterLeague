@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule }  from '@angular/common';
 
-import { ButtonModule, InputContainerModule } from '../../quSquared';
+import { QuSquaredModule } from '../../quSquared';
 
 import { HomeRoutes } from './home.routes';
 import { HomeComponent } from './home.comp';
@@ -12,8 +12,7 @@ import { HomeComponent } from './home.comp';
     CommonModule,
 		FormsModule,
 		HomeRoutes,
-		ButtonModule,
-		InputContainerModule,
+		QuSquaredModule
   ],
   declarations: [
 		HomeComponent
