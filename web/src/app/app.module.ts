@@ -9,6 +9,7 @@ import { QuSquaredModule } from '../../quSquared';
 import { AppRoutes } from './app.routes';
 import { AppComponent } from './app.comp';
 import { HeaderComponent } from '../header/header.comp';
+import { SideNavComponent } from '../side-nav/side-nav.comp';
 import { HomeModule } from '../home/home.module';
 import { ProfileModule } from '../profile/profile.module';
 import { SignInModule } from '../sign-in/sign-in.module';
@@ -31,7 +32,9 @@ import { SplashModule } from '../splash/splash.module';
   ],
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+		SideNavComponent
+
   ],
   providers: [
   ],

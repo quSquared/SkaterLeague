@@ -1,17 +1,15 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ElementRef, Renderer} from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 @Component({
 	selector: 'qu-side-nav',
 	templateUrl: './side-nav.html'
 })
-export class SideNav {
-	@Input() isOpen? : string;
+export class SideNavComponent {
+	@Input() isOpen: boolean = false;
 
-	constructor() {
-	}
-
-	toggle() {
-
+	constructor(
+		private elementRef: ElementRef,
+		private renderer: Renderer) {
 	}
 }
