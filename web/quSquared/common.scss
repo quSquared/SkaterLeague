@@ -1,5 +1,5 @@
-$qu-primary-primary-bg: white !default;
-$qu-primary-primary-color: black !default;
+$qu-primary-btn-bg-color: white !default;
+$qu-primary-btn-color: black !default;
 
 .qu-ripple {
 	
@@ -16,7 +16,7 @@ $qu-primary-primary-color: black !default;
 			
 		border-radius: 100%;
 		
-		background-color: rgba($qu-primary-primary-color, .098);
+		background-color: rgba($qu-primary-btn-color, .2);
 		
 		-webkit-transform: translate(-50%, -50%);
 		-moz-transform: translate(-50%, -50%);
@@ -31,12 +31,20 @@ $qu-primary-primary-color: black !default;
 		
 		transition: width .35s ease-out, padding-top .35s ease-out;
 	}
+
+	&:hover {
+		background-color: darken($qu-primary-btn-bg-color, 10%) !important;
+	}
 }
 
 .qu-secondary {
 	.qu-ripple {	
 		&:before {
-		background-color: rgba($qu-primary-primary-bg, .098);
+			background-color: rgba($qu-primary-btn-bg-color, .2);
+		}
+
+		&:hover {
+			background-color: darken($qu-primary-btn-color, 10%) !important;
 		}
 	}
 }

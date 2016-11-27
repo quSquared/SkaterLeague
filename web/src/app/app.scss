@@ -1,7 +1,15 @@
-$qu-primary-primary-bg: #f44336;
-$qu-primary-primary-color: #ecf0f1;
-$qu-side-nav-bg: #C62828;
-$qu-side-nav-border: #C62828;
+$sl-primary: #f44336;
+$sl-primary-dark: #C62828;
+$sl-primary-darker: #B71C1C;
+
+$sl-secondary: #1976D2;
+
+$qu-primary-bg: $sl-primary;
+$qu-primary-color: #ecf0f1;
+$qu-primary-btn-bg-color: $sl-secondary;
+$qu-primary-btn-color: white;
+$qu-side-nav-bg: $sl-primary-dark;
+$qu-side-nav-border: $qu-side-nav-bg;
 
 .app {
 	height: calc(100% - 50px);

@@ -1,7 +1,8 @@
 $qu-side-nav-bg: white !default;
-$qu-side-nav-border:  rgba(0,0,0,0.87) !default;
+$qu-side-nav-border: $qu-side-nav-bg !default;
 
 .qu-side-nav {
+  font-family: Arial, Helvetica, sans-serif;
 	position: fixed;
 	z-index: 1;
 	width: 240px;
@@ -14,10 +15,10 @@ $qu-side-nav-border:  rgba(0,0,0,0.87) !default;
 	transition: 0.5s;
 
 	&-open {
-		width: 240px;		
+		left: 0;		
 	}
 	
 	&-close {
-		width: 0;		
+		left: -240px;		
 	}
 }

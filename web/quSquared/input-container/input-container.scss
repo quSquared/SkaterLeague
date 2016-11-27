@@ -1,22 +1,25 @@
 .qu-input-container {
-	
+
 	* { box-sizing:border-box; }
 	
-	.qu-input-container {
-		position:relative; 
-		margin-bottom:10px;
-	} 
+	position:relative; 
+	margin-bottom:10px; 
 	
-	.qu-input-container ::content ::shadow input {
+	> input {
 		font-size:18px;
-		padding:5px 10px 10px 5px;
+		padding:8px 10px 7px 5px;
 		display:block;
 		width:100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 2px;
 	}
-	.qu-input-container ::content ::shadow input:focus 		{ outline:none; }
+
+	> input:focus { 
+		outline:none; 
+	}
 
 	/* LABEL ======================================= */
-	.qu-input-container label 				 {
+	> label {
 		color:#999; 
 		font-size:18px;
 		font-weight:normal;
@@ -25,26 +28,31 @@
 		left:5px;
 		top:10px;
 		transition:0.2s ease all; 
-		-moz-transition:0.2s ease all;
+		-moz-transition:0.2s ease all; 
 		-webkit-transition:0.2s ease all;
 	}
 
 	/* active state */
-	.qu-input-container ::content ::shadow input:focus ~ label, .qu-input-container ::content ::shadow input:valid ~ label 		{
+	> input:focus ~ label, > input:valid ~ label 		{
 		top:-15px;
 		font-size:14px;
-		color:#607d8b;
+		color:#1976D2;
 	}
 
 	/* BOTTOM BARS ================================= */
-	.bar 	{ position:relative; display:block; width:100%; }
-	.bar:before, .bar:after 	{
+	.bar { 
+		position:relative; 
+		display:block; 
+		width:calc(100%); 
+	}
+
+	.bar:before, .bar:after {
 		content:'';
 		height:2px; 
 		width:0;
 		bottom:1px; 
 		position:absolute;
-		background:#607d8b; 
+		background:#1976D2; 
 		transition:0.2s ease all; 
 		-moz-transition:0.2s ease all; 
 		-webkit-transition:0.2s ease all;
@@ -57,7 +65,7 @@
 	}
 
 	/* active state */
-	.qu-input-container ::content ::shadow input:focus ~ .bar:before, .qu-input-container ::content ::shadow input:focus ~ .bar:after {
+	> input:focus ~ .bar:before, > input:focus ~ .bar:after {
 		width:50%;
 	}		
 
@@ -73,7 +81,7 @@
 	}
 
 	/* active state */
-	.qu-input-container ::content ::shadow input:focus ~ .highlight {
+	> input:focus ~ .highlight {
 		-webkit-animation:inputHighlighter 0.3s ease;
 		-moz-animation:inputHighlighter 0.3s ease;
 		animation:inputHighlighter 0.3s ease;
@@ -81,15 +89,15 @@
 
 	/* ANIMATIONS ================ */
 	@-webkit-keyframes inputHighlighter {
-		from { background:#607d8b; }
+		from { background:#1976D2; }
 		to 	{ width:0; background:transparent; }
 	}
 	@-moz-keyframes inputHighlighter {
-		from { background:#607d8b; }
+		from { background:#1976D2; }
 		to 	{ width:0; background:transparent; }
 	}
 	@keyframes inputHighlighter {
-		from { background:#607d8b; }
+		from { background:#1976D2; }
 		to 	{ width:0; background:transparent; }
 	}
 }

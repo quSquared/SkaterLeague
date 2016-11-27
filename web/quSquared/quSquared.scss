@@ -1,10 +1,13 @@
-$qu-primary-primary-bg: white !default;
-$qu-primary-primary-color: black !default;
+$qu-primary-bg: white !default;
+$qu-primary-color: black !default;
+
+$qu-primary-btn-bg-color: black !default;
+$qu-primary-btn-color: white !default;
 
 @import './common';
 @import './layout/layout';
 
 @import './button/button';
-//@import './input-container/input-container';
+@import './input-container/input-container';
 @import './link/link';
 @import './side-nav/side-nav';

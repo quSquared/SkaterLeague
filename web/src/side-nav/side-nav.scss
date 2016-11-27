@@ -1,0 +1,32 @@
+$sl-primary-dark: #C62828 !default;
+
+.side-nav {
+	
+	&-profile {
+		height: 100px;
+		color: white;
+
+		h3 {
+			text-align: center;
+			font-weight: 100;
+		}
+	}
+
+	.qu-link-container {
+		margin: 0;
+	}
+
+	.qu-link {
+		width: 100%;
+		border-radius: 0;
+		background-color: $sl-primary-dark;
+
+		&:hover {			
+			background-color: $sl-primary-darker !important;
+		}
+
+		> span {
+			justify-content: flex-start;
+		}
+	}
+}

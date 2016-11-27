@@ -1,10 +1,12 @@
+$sl-primary: white !default;
+
 .header {
     position: fixed;
 
     width: 100%;
     height: 50px;
     
-    background-color: #f44336;
+    background-color: $sl-primary;
 
 		> div {
 			
@@ -27,5 +29,9 @@
 				background-origin: border-box;
 				background-size: cover;
 			}
+		}
+
+		.qu-button, .qu-link {
+			background-color: $sl-primary !important;
 		}
 }
