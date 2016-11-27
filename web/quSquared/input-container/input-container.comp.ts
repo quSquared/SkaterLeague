@@ -38,7 +38,7 @@ import { NgForm } from '@angular/forms';
 	.qu-input-container ::content >>> input:focus ~ label, .qu-input-container ::content >>> input:valid ~ label 		{
 		top:-15px;
 		font-size:14px;
-		color:#607d8b;
+		color:#1976D2;
 	}
 
 	/* BOTTOM BARS ================================= */
@@ -49,7 +49,7 @@ import { NgForm } from '@angular/forms';
 		width:0;
 		bottom:1px; 
 		position:absolute;
-		background:#607d8b; 
+		background:#1976D2; 
 		transition:0.2s ease all; 
 		-moz-transition:0.2s ease all; 
 		-webkit-transition:0.2s ease all;
@@ -86,15 +86,15 @@ import { NgForm } from '@angular/forms';
 
 	/* ANIMATIONS ================ */
 	@-webkit-keyframes inputHighlighter {
-		from { background:#607d8b; }
+		from { background:#1976D2; }
 		to 	{ width:0; background:transparent; }
 	}
 	@-moz-keyframes inputHighlighter {
-		from { background:#607d8b; }
+		from { background:#1976D2; }
 		to 	{ width:0; background:transparent; }
 	}
 	@keyframes inputHighlighter {
-		from { background:#607d8b; }
+		from { background:#1976D2; }
 		to 	{ width:0; background:transparent; }
 	}
 	`]
