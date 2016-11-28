@@ -33,13 +33,13 @@ module.exports = function (router) {
 	});
 
 	router.route('/register').post(function (req, res, next) {
-		AuthRequest.register(req.body, function (err, token) {
+		AuthRequest.register(req.body, function (err, result) {
 			if (err) {
 				res.status(404).json(err);
 				return;
 			}
 
-			res.status(200).json({ "token": token });
+			res.status(200).json(result);
 		});
 	});
 

@@ -6,7 +6,8 @@ import { NgForm } from '@angular/forms';
 	templateUrl: './button.html'
 })
 export class ButtonComponent {
-	@Input() qlHref? : string;
+	@Input() quDisabled: boolean = false;
+	@Input() quClick?: Function;
 
 	constructor() {
 	}

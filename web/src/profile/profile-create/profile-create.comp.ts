@@ -15,4 +15,8 @@ export class ProfileCreateComponent implements OnInit {
 	ngOnInit() {
 
 	}
+
+	createProfile() {
+		console.log('createProfile');
+	}
 }

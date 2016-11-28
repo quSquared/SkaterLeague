@@ -24,8 +24,8 @@ export class SignUpComponent implements OnInit {
 			.subscribe(
 				response => {
 					// direct to profile
-					console.log('token', response);
-					this.router.navigate(['profile', 'create']);
+					console.log('register user', response);
+					this.router.navigate(['home']);
 				},			
 				error => this.errorMessage = <any>error);
 	}

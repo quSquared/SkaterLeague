@@ -25,7 +25,7 @@ $qu-primary-btn-color: black !default;
 		transform: translate(-50%, -50%);
 	}
 
-	&:active:before {
+	&:active:before { 
 		width: 120%;
 		padding-top: 120%;
 		
@@ -47,4 +47,22 @@ $qu-primary-btn-color: black !default;
 			background-color: darken($qu-primary-btn-color, 10%) !important;
 		}
 	}
+}
+
+[disabled]:active:before,
+[disabled]:active:before,
+[disabled]:before,
+[disabled]:before {	
+	background-color: transparent !important;
+	color: transparent !important;
+
+	transition: none;
+}
+
+[disabled], [disabled]:hover,
+[disabled], [disabled]:hover
+ {
+	background-color: rgba(0, 0, 0, 0.117647) !important;
+	color: rgba(0, 0, 0, 0.380392) !important;
+	cursor: default;
 }

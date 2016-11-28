@@ -15,7 +15,19 @@
 				<input name="passwordConfirm" ngModel required #passwordConfirm="ngModel">
 			</qu-input-container>
 			<br/>
-			<qu-button type="submit" class="qu-raised qu-primary">Sign Up</qu-button>
+			<qu-input-container [placeholder]="'Display Name'">
+				<input name="displayName" ngModel required #displayName="ngModel">
+			</qu-input-container>
+			<br/>	
+			<qu-input-container [placeholder]="'First Name'">
+				<input name="firstName" ngModel required #firstName="ngModel">
+			</qu-input-container>
+			<br/>
+			<qu-input-container [placeholder]="'Last Name'">
+				<input name="lastName" ngModel required #lastName="ngModel">
+			</qu-input-container>
+			<br/>
+			<qu-button type="submit" [quDisabled]="!signUpForm.valid" class="qu-raised qu-primary">Sign Up</qu-button>
 		</form>
 	</div>	
 </div>

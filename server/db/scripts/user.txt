@@ -1,7 +1,15 @@
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(255) DEFAULT NULL,
-  `password` char(60) DEFAULT NULL,
+  `accountId` int(11) NOT NULL,
+  `firstName` varchar(255) NOT NULL,
+  `lastName` varchar(255) NOT NULL,
+  `displayName` varchar(255) NOT NULL,
+  `birthDate` date DEFAULT NULL,
+  `state` varchar(255) DEFAULT NULL,
+  `country` varchar(255) DEFAULT NULL,
+  `dateCreated` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `email_UNIQUE` (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  UNIQUE KEY `displayName_UNIQUE` (`displayName`),
+  KEY `accountId_idx` (`accountId`),
+  CONSTRAINT `accountId` FOREIGN KEY (`accountId`) REFERENCES `account` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;

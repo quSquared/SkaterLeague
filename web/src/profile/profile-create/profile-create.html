@@ -1,6 +1,6 @@
 <div class="profile-create" quFlexRow [quFlexAlign]="'center'">
 	<div class="profile-create-container qu-whiteframe-6" quFlexColumn [quFlexAlign]="'start start'">
-		<h1>Create Account</h1>
+		<h1>Profile Details</h1>
 		<form #profileForm="ngForm" (ngSubmit)="createProfile(profileForm.value)">
 			<qu-input-container [placeholder]="'Display Name'">
 				<input name="displayName" ngModel required #displayName="ngModel">
@@ -14,7 +14,8 @@
 				<input name="lastName" ngModel required #lastName="ngModel">
 			</qu-input-container>
 			<br/>
-			<qu-button type="submit" class="qu-raised qu-primary">Create</qu-button>
+			
+			<qu-button [quDisabled]="!profileForm.valid" type="submit" class="qu-raised qu-primary">Create</qu-button>
 		</form>
 	</div>	
 </div>

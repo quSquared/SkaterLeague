@@ -1,5 +1,5 @@
 <div class="qu-button-container">
-	<button class="qu-button qu-ripple">
+	<button class="qu-button qu-ripple" (click)="quClick ? quClick() : null" [disabled]="quDisabled"> 
 		<span><ng-content></ng-content></span>
 	</button>
 </div>
