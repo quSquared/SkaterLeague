@@ -12,4 +12,4 @@ CREATE TABLE `user` (
   UNIQUE KEY `displayName_UNIQUE` (`displayName`),
   KEY `accountId_idx` (`accountId`),
   CONSTRAINT `accountId` FOREIGN KEY (`accountId`) REFERENCES `account` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

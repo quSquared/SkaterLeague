@@ -7,7 +7,7 @@ CREATE TABLE `flip_trick` (
   `nolliePoints` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name_UNIQUE` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO flip_trick (name, regularPoints, fakiePoints, switchPoints, nolliePoints)  
 VALUES ('Riding Basics', 1, 1, 1, 1),
