@@ -3,6 +3,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	padding: 16px; 
 
 	&-container {
 		background-color: whitesmoke;
@@ -32,8 +33,12 @@
 		background-size: cover;
 	}
 
+	.qu-button-container {
+		width: 100%;
+	}
 	.qu-button {
-		width: 238px;
+		height: 60px;
+		font-size: 20px;
 	}
 }
 

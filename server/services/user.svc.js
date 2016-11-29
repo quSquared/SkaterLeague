@@ -15,8 +15,8 @@ class UserSvc {
 		return this.DbConnect.querySingle('SELECT * FROM USER WHERE `ID` = ?;', [id], cb);
 	}
 
-	getByUsername(username, cb) {
-		return this.DbConnect.querySingle('SELECT * FROM USER WHERE `EMAIL` = ?;', [username], cb);
+	getByAccountId(accountId, cb) {
+		return this.DbConnect.querySingle('SELECT * FROM USER WHERE `accountId` = ?;', [accountId], cb);
 	}
 
 	save(user, cb) {

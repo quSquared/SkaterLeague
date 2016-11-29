@@ -9,9 +9,8 @@ module.exports = function AccountModel(account) {
 		return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 	};
 
-	this.validPassword = function (password) {
-		var hash = bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
-		return bcrypt.compareSync(this.password, hash);
+	this.validPassword = function (password) {		
+		return bcrypt.compareSync(password, this.password);
 	};
 
 	this.generateJwt = function () {

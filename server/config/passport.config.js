@@ -1,15 +1,19 @@
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
-var UserSvc = require('./../services/user.svc');
+
+var AccountModel = require('./../models/account');
+var AccountSvc = require('./../services/account.svc');
+
 var UserModel = require('./../models/user');
+var UserSvc = require('./../services/user.svc');
 
 passport.serializeUser(function (user, done) {
 	done(null, user._id);
 });
 
 passport.deserializeUser(function (id, done) {
-	User.findById(id, function (err, user) {
+	AccountSvc.findById(id, function (err, user) {
 		done(err, user);
 	});
 });
@@ -21,23 +25,31 @@ passport.use('local', new LocalStrategy({
 	passReqToCallback: true
 },
 	function (req, email, password, done) {
+		var AccountRequest = new AccountSvc();
 		var UserRequest = new UserSvc();
-		UserRequest.getByUsername(email, function (err, result) {
+			
+		AccountRequest.getByEmail(email, function (err, acctResult) {
+			var account = new AccountModel(acctResult);
+			var accountId = acctResult.id;
 			// if there are any errors, return the error
 			if (err) {
 				return done(err);
 			}
 
-			if (!result) {
+			if (!acctResult) {
 				return done(null, false, {
 					message: 'User not found'
 				});
-			}
+			}			
 
-			var user = new UserModel(result);
 			// Return if password is wrong
-			if (!user.validPassword(password)) {
-				return done(null, user);
+			if (account.validPassword(password)) {
+				UserRequest.getByAccountId(accountId, function (userErr, userResult) {					
+					var token = account.generateJwt();
+					var user = new UserModel(userResult);
+					user.access_token = token;
+					return done(null, user);
+				});
 			}
 		});
 	}));

@@ -1,33 +1,29 @@
 <div class="sign-up">   
-	<div class="sign-up-container qu-whiteframe-6">
-		<h1>Skater League</h1>
-		<div class="sign-up-logo"></div>
-		<form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm.value)">
+	<div class="sign-up-container qu-whiteframe-6" quFlexRow>
+		<div quFlexColumn>
+			<h1>Skater League</h1>
+			<div class="sign-up-logo"></div>
+		</div>
+		<form #signUpForm="ngForm" (ngSubmit)="signUp(signUpForm.value)" quFlexColumn>
 			<qu-input-container [placeholder]="'Email'">
 				<input name="email" ngModel required #email="ngModel">
 			</qu-input-container>
-			<br/>	
 			<qu-input-container [placeholder]="'Password'">
 				<input name="password" ngModel required #password="ngModel">
 			</qu-input-container>
-			<br/>
 			<qu-input-container [placeholder]="'Confirm Password'">
 				<input name="passwordConfirm" ngModel required #passwordConfirm="ngModel">
 			</qu-input-container>
-			<br/>
 			<qu-input-container [placeholder]="'Display Name'">
 				<input name="displayName" ngModel required #displayName="ngModel">
 			</qu-input-container>
-			<br/>	
 			<qu-input-container [placeholder]="'First Name'">
 				<input name="firstName" ngModel required #firstName="ngModel">
 			</qu-input-container>
-			<br/>
 			<qu-input-container [placeholder]="'Last Name'">
 				<input name="lastName" ngModel required #lastName="ngModel">
 			</qu-input-container>
-			<br/>
-			<qu-button type="submit" [quDisabled]="!signUpForm.valid" class="qu-raised qu-primary">Sign Up</qu-button>
+			<qu-button type="submit" [quDisabled]="!signUpForm.valid" class="qu-raised qu-primary">Create Account</qu-button>
 		</form>
 	</div>	
 </div>

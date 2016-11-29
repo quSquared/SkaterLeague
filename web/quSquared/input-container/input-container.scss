@@ -6,13 +6,12 @@
 	margin-bottom:10px; 
 	
 	> input {
-		font-size:18px;
-		padding:8px 10px 7px 5px;
-		display:block;
-		width:100%;
-    border: none;
-    border-bottom: 1px solid #bdbdbd;
-    border-radius: 2px;
+    font-size: 18px;
+    padding: 24px 0.88889em 0.44444em 20px;
+    display: block;
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
     background: transparent;
 	}
 
@@ -22,84 +21,26 @@
 
 	/* LABEL ======================================= */
 	> label {
-		color:#999; 
-		font-size:18px;
-		font-weight:normal;
-		position:absolute;
-		pointer-events:none;
-		left:5px;
-		top:10px;
-		transition:0.2s ease all; 
-		-moz-transition:0.2s ease all; 
-		-webkit-transition:0.2s ease all;
+    color: #999;
+    font-size: 18px;
+    font-weight: 100;
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 19px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
 	}
 
 	/* active state */
 	> input:focus ~ label, > input:valid ~ label 		{
-		top:-15px;
-		font-size:14px;
-		color:#1976D2;
+    top: 8px;
+    font-size: 12px;
+    color: #1976D2;
 	}
 
-	/* BOTTOM BARS ================================= */
-	.bar { 
-		position:relative; 
-		display:block; 
-		width:calc(100%); 
-	}
-
-	.bar:before, .bar:after {
-		content:'';
-		height:2px; 
-		width:0;
-		bottom:1px; 
-		position:absolute;
-		background:#1976D2; 
-		transition:0.2s ease all; 
-		-moz-transition:0.2s ease all; 
-		-webkit-transition:0.2s ease all;
-	}
-	.bar:before {
-		left:50%;
-	}
-	.bar:after {
-		right:50%; 
-	}
-
-	/* active state */
-	> input:focus ~ .bar:before, > input:focus ~ .bar:after {
-		width:50%;
-	}		
-
-	/* HIGHLIGHTER ================================== */
-	.highlight {
-		position:absolute;
-		height:60%; 
-		width:100px; 
-		top:25%; 
-		left:0;
-		pointer-events:none;
-		opacity:0.5;
-	}
-
-	/* active state */
-	> input:focus ~ .highlight {
-		-webkit-animation:inputHighlighter 0.3s ease;
-		-moz-animation:inputHighlighter 0.3s ease;
-		animation:inputHighlighter 0.3s ease;
-	}
-
-	/* ANIMATIONS ================ */
-	@-webkit-keyframes inputHighlighter {
-		from { background:#1976D2; }
-		to 	{ width:0; background:transparent; }
-	}
-	@-moz-keyframes inputHighlighter {
-		from { background:#1976D2; }
-		to 	{ width:0; background:transparent; }
-	}
-	@keyframes inputHighlighter {
-		from { background:#1976D2; }
-		to 	{ width:0; background:transparent; }
+	> input:active, > input:focus {
+		border-color: #1976D2;
 	}
 }

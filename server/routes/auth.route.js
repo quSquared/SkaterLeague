@@ -2,7 +2,6 @@
 
 var passport = require('passport');
 var AuthSvc = require('./../services/auth.svc');
-var UserModel = require('./../models/user');
 
 module.exports = function (router) {
 	var AuthRequest = new AuthSvc();
@@ -55,10 +54,7 @@ module.exports = function (router) {
 
 			// If a user is found
 			if (user) {
-				token = user.generateJwt();
-				res.status(200).json({
-					"token": token
-				});
+				res.status(200).json(user);
 			}
 			else {
 				// If user is not found

@@ -18,7 +18,6 @@ class AuthSvc {
 		account.password = account.generateHash(account.password);
 
 		this.AccountSvc.save(account, function (err, res) {
-			console.log();
 			this.AccountSvc.getByEmail(account.email, function (err, accountEmailRes) {
 				user.accountId = accountEmailRes.id;
 				let token = account.generateJwt();

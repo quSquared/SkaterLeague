@@ -1,11 +1,16 @@
 $sl-gray-dark: #616161 !default;
 $sl-secondary: #1976D0 !default;
+$sl-primary-darker: #B71C1C !default;
 
 .side-nav {
-	
+	.qu-side-nav {
+		margin-top: 64px;
+	}
+
 	&-profile {
-		height: 100px;
-		color: $sl-gray-dark;
+		height: 150px;
+		color: white;
+		background-color: $sl-primary-darker;
 
 		h3 {
 			text-align: center;
@@ -21,7 +26,9 @@ $sl-secondary: #1976D0 !default;
 		width: 100%;
 		border-radius: 0;
 		background-color: whitesmoke;
-		color: $sl-secondary;
+		color: $sl-gray-dark;
+		height: 60px;
+		font-size: 20px;
 
 		&:before {			
 			background-color: rgba(33, 33, 33, .098) !important;
@@ -34,6 +41,10 @@ $sl-secondary: #1976D0 !default;
 
 		> span {
 			justify-content: flex-start;
+
+			> i {
+				font-size: 30px;
+			}
 		}
 	}
 }

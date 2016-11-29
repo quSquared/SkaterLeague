@@ -48,6 +48,10 @@ $qu-primary-btn-color: white !default;
 	}
 }
 
+.qu-button {
+	width: 100%;
+}
+
 .qu-primary > .qu-button-container {
 	.qu-button {
 		background-color: $qu-primary-btn-bg-color;
