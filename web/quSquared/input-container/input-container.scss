@@ -10,8 +10,10 @@
 		padding:8px 10px 7px 5px;
 		display:block;
 		width:100%;
-    border: 1px solid #bdbdbd;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
     border-radius: 2px;
+    background: transparent;
 	}
 
 	> input:focus { 

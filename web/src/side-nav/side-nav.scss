@@ -1,10 +1,11 @@
-$sl-primary-dark: #C62828 !default;
+$sl-gray-dark: #616161 !default;
+$sl-secondary: #1976D0 !default;
 
 .side-nav {
 	
 	&-profile {
 		height: 100px;
-		color: white;
+		color: $sl-gray-dark;
 
 		h3 {
 			text-align: center;
@@ -19,11 +20,17 @@ $sl-primary-dark: #C62828 !default;
 	.qu-link {
 		width: 100%;
 		border-radius: 0;
-		background-color: $sl-primary-dark;
+		background-color: whitesmoke;
+		color: $sl-secondary;
 
-		&:hover {			
-			background-color: $sl-primary-darker !important;
+		&:before {			
+			background-color: rgba(33, 33, 33, .098) !important;
 		}
+		
+		&:hover {			
+			background-color: rgba(66, 66, 66, .098) !important;
+		}
+
 
 		> span {
 			justify-content: flex-start;

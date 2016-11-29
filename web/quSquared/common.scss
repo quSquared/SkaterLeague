@@ -40,11 +40,11 @@ $qu-primary-btn-color: black !default;
 .qu-secondary {
 	.qu-ripple {	
 		&:before {
-			background-color: rgba($qu-primary-btn-bg-color, .2);
+			background-color: rgba(33, 33, 33, .098);
 		}
 
 		&:hover {
-			background-color: darken($qu-primary-btn-color, 10%) !important;
+			background-color: darken(#fff, 10%) !important;
 		}
 	}
 }

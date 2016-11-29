@@ -4,12 +4,16 @@ $sl-primary-darker: #B71C1C;
 
 $sl-secondary: #1976D2;
 
+$sl-gray: grey;
+$sl-gray-dark: #616161;
+
 $qu-primary-bg: $sl-primary;
 $qu-primary-color: #ecf0f1;
 $qu-primary-btn-bg-color: $sl-secondary;
 $qu-primary-btn-color: white;
-$qu-side-nav-bg: $sl-primary-dark;
-$qu-side-nav-border: $qu-side-nav-bg;
+$qu-side-nav-bg: whitesmoke;
+$qu-side-nav-border: whitesmoke;
+$qu-side-nav-color: $sl-secondary;
 
 .app {
 	height: calc(100% - 50px);
