@@ -6,7 +6,7 @@ import { NgForm } from '@angular/forms';
 	templateUrl: './link.html'
 })
 export class LinkComponent {
-	@Input() qlHref? : string;
+	@Input() quHref? : string;
 
 	constructor() {
 	}

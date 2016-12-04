@@ -3,7 +3,6 @@ $qu-primary-btn-color: white !default;
 
 .qu-button-container {
 	display: inline-block;
-	margin-bottom: 5px;
 
 	button {
 		font-size: 13.3333px;
@@ -50,22 +49,6 @@ $qu-primary-btn-color: white !default;
 
 .qu-button {
 	width: 100%;
-}
-
-.qu-primary > .qu-button-container {
-	.qu-button {
-		background-color: $qu-primary-btn-bg-color;
-		color: $qu-primary-btn-color;		
-	}
-}
-
-.qu-secondary > .qu-button-container {
-	.qu-button {
-		background-color: $qu-primary-btn-bg-color;
-		color: $qu-primary-btn-color;
-
-		border: 1px solid $qu-primary-btn-bg-color;
-	}
 }
 
 .qu-raised > .qu-button-container {

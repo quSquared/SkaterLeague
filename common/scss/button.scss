@@ -1,0 +1,20 @@
+$sl-secondary: #1976D2;
+
+.sl-primary {
+	.qu-button-container {
+		button {
+			background-color: $sl-secondary;
+			color: white;
+		}
+	}
+}
+
+.sl-secondary {
+	.qu-button-container {
+		button {
+			background-color: white;
+			color: $sl-secondary;
+			border: 1px solid $sl-secondary;
+		}
+	}
+}

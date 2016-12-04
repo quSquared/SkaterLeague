@@ -1,19 +1,8 @@
-$sl-primary: #f44336;
-$sl-primary-dark: #C62828;
-$sl-primary-darker: #B71C1C;
+@import '../../../common/scss/styles';
 
-$sl-secondary: #1976D2;
-
-$sl-gray: grey;
-$sl-gray-dark: #616161;
-
-$qu-primary-bg: $sl-primary;
-$qu-primary-color: #ecf0f1;
-$qu-primary-btn-bg-color: $sl-secondary;
-$qu-primary-btn-color: white;
-$qu-side-nav-bg: whitesmoke;
-$qu-side-nav-border: whitesmoke;
-$qu-side-nav-color: $sl-secondary;
+html, body {	
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .app {
 	height: calc(100vh - 64px);

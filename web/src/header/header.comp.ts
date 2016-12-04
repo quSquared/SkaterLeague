@@ -6,6 +6,7 @@ import { SideNavService } from '../../quSquared/side-nav/side-nav.svc';
 @Component({
   selector: 'sl-header',
   templateUrl: './header.html',
+  styleUrls: ['./header.scss'],
 	providers: [SideNavService]
 })
 export class HeaderComponent { 

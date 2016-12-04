@@ -1,0 +1,28 @@
+$sl-secondary: #1976D2;
+
+.sl-primary {
+	.qu-link-container {
+		a {
+			background-color: $sl-secondary;
+			color: white;
+		}
+
+		a:hover {
+			background-color: darken($color: $sl-secondary, $amount: 10%);
+		}
+	}
+}
+
+.sl-secondary {
+	.qu-link-container {
+		a {
+			background-color: white;
+			color: $sl-secondary;
+			border: 1px solid $sl-secondary;
+		}
+
+		a:hover {
+			background-color: darken($color: white, $amount: 10%);
+		}
+	}
+}
