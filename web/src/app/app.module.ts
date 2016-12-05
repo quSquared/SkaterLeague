@@ -17,6 +17,8 @@ import { SignInModule } from '../sign-in/sign-in.module';
 import { SignUpModule } from '../sign-up/sign-up.module';
 import { SplashModule } from '../splash/splash.module';
 
+import { UserService } from '../user/user.svc';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -38,6 +40,7 @@ import { SplashModule } from '../splash/splash.module';
 
   ],
   providers: [
+		UserService
   ],
   bootstrap: [ AppComponent ]
 })

@@ -30,14 +30,22 @@ $sl-primary-darker: #B71C1C;
 			}
 		}
 
-
 		.qu-button-container {
 			margin-bottom: 0;
 		}
-		.qu-button, .qu-link {
+
+		.qu-button {
 			height: 64px;
+		}
+
+		.qu-link {
+			height: 68px;
+		}
+
+		.qu-button, .qu-link {
 			background-color: white;
 			color: $sl-primary-darker;
+			border-radius: 0;
 
 			i {
 				font-size: 30px;

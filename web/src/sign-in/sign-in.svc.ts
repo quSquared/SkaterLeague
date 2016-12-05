@@ -1,14 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Headers, RequestOptions } from '@angular/http';
-
 import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class SignInService {
 	private signUrl = 'api/auth/google';
 
-	constructor(private http: Http) { }	
+	constructor(private http: Http ) { }	
 
 	login(user): Observable<any> {
 		return this.http.post('api/login', user)
@@ -35,7 +34,6 @@ export class SignInService {
 
 	private extractData(res: Response) {
 		let body = res.json();
-		console.log('body', body);
 		return body || {};
 	}
 

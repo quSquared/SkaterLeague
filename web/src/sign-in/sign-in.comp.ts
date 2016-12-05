@@ -1,18 +1,23 @@
 import { Component, OnInit, NgZone } from '@angular/core';
 import { Router } from "@angular/router";
+
 import { SignInService } from './sign-in.svc';
+import { UserService } from './../user/user.svc';
 
 @Component({
 	selector: 'sl-sign-in',
 	templateUrl: './sign-in.html',
-	providers: [SignInService]
+	providers: [
+		SignInService
+	]
 })
 export class SignInComponent implements OnInit {
 	errorMessage: string;
 
 	constructor(
 		private router: Router,
-		private signInService: SignInService,
+		private signInSvc: SignInService,
+		private userSvc: UserService,
 		private zone: NgZone) {
 		// this.zone.run(() => {
 		//   $.proxy(this.onGoogleLoginSuccess, this);
@@ -36,17 +41,17 @@ export class SignInComponent implements OnInit {
 	}
 
 	signIn(user: any) {
-		this.signInService.login(user)
+		this.signInSvc.login(user)
 			.subscribe(
 			response => {
+				this.userSvc.setLoggedIn(response);
 				this.router.navigate(['home']);
-				console.log('token', response);
 			},
 			error => this.errorMessage = <any>error);
 	}
 
 	signInWithGoogle() {
-		this.signInService.googleAuth()
+		this.signInSvc.googleAuth()
 			.subscribe(
 			response => this.onGoogleLoginSuccess,
 			error => this.errorMessage = <any>error);
