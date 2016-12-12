@@ -5,8 +5,12 @@
 	-webkit-flex-direction: row;
 	flex-direction: row;
 
-   -webkit-justify-content: flex-start;
-   justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	 
+	flex: 1;
+	max-height: none;
+	min-height: auto;
 }
 
 .qu-flex-column {
@@ -16,8 +20,12 @@
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	
-   -webkit-justify-content: flex-start;
-   justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+
+	flex: 1;
+	max-width: none;
+	min-width: auto;
 }
 
 .qu-flex-justify-content-start {

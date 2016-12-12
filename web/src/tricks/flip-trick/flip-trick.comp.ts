@@ -11,7 +11,7 @@ import { FlipTrickService } from './flip-trick.svc';
 	]
 })
 export class FlipTrickComponent {
-	flipTricks: any[];
+	public flipTricks: any[];
 
 	constructor(private flipTrickSvc: FlipTrickService) {
 		this.flipTrickSvc.getAll().subscribe(response => {

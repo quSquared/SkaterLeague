@@ -1,0 +1,18 @@
+<div class="tricks" quFlexRow [quFlexAlign]="'center start'">
+	<div class="tricks-container qu-whiteframe-6" quFlex="70">
+		<div quFlex="50">
+			<div *ngFor="let flipTrick of flipTricks" class="tricks-item" quFlexRow [quFlexAlign]="'start center'">
+				<div quFlexRow [quFlexAlign]="'start center'" class="trick-details" quFlex>
+					<div class="trick-heading" quFlex>{{ flipTrick.name }}</div>
+					<div class="trick-positions">
+						<qu-button>R {{ flipTrick.regularPoints }}</qu-button>			
+						<qu-button>F {{ flipTrick.fakiePoints }}</qu-button>			
+						<qu-button>S {{ flipTrick.switchPoints }}</qu-button>			
+						<qu-button>N {{ flipTrick.nolliePoints }}</qu-button>
+					</div>				
+				</div>
+				<qu-button class="trick-view-btn"><i class="material-icons">chevron_right</i></qu-button>					
+			</div>
+		</div>
+	</div>
+</div>

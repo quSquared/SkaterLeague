@@ -4,18 +4,18 @@ import { CommonModule }  from '@angular/common';
 
 import { QuSquaredModule } from '../../quSquared';
 
-import { TrickRoutes } from "./trick.routes";
+import { TricksRoutes } from "./tricks.routes";
 import { FlipTrickComponent } from "./flip-trick/flip-trick.comp";
 
 @NgModule({
   imports: [
     CommonModule,
 		FormsModule,
-    TrickRoutes,
+    TricksRoutes,
 		QuSquaredModule
   ],
   declarations: [
     FlipTrickComponent
   ]
 })
-export class TrickModule { }
+export class TricksModule { }

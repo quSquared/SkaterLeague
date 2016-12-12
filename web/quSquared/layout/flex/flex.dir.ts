@@ -65,3 +65,33 @@ export class FlexAlignDirective implements OnInit {
 		}
 	}
 }
+
+@Directive({
+	selector: '[quFlex]'
+})
+export class FlexDirective implements OnInit {
+	private element: HTMLElement;  
+	private flexAmount?: number;
+
+  @Input()
+  set quFlex(flexAmount: number) {
+    this.flexAmount = flexAmount;
+  }
+
+	constructor(
+		private elementRef: ElementRef,
+		private renderer: Renderer
+	) { 	
+		this.element = this.elementRef.nativeElement;
+	}
+
+	ngOnInit () {
+		if (this.flexAmount) {
+			this.renderer.setElementStyle(this.element, 'flex', `${this.flexAmount}%`);
+			this.renderer.setElementStyle(this.element, 'max-width', `${this.flexAmount}%`);
+		}
+		else {
+			this.renderer.setElementStyle(this.element, 'flex', '1');
+		}
+	}
+}

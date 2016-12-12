@@ -10,7 +10,9 @@ mobile/tmp/
 mobile/typings/
 
 server/node_modules
+server/npm-debug.log
 
 web/node_modules
+web/npm-debug.log
 
 

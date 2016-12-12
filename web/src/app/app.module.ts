@@ -16,7 +16,7 @@ import { ProfileModule } from '../profile/profile.module';
 import { SignInModule } from '../sign-in/sign-in.module';
 import { SignUpModule } from '../sign-up/sign-up.module';
 import { SplashModule } from '../splash/splash.module';
-import { TrickModule } from '../trick/trick.module';
+import { TricksModule } from '../tricks/tricks.module';
 
 import { UserService } from '../user/user.svc';
 
@@ -32,7 +32,7 @@ import { UserService } from '../user/user.svc';
     SignInModule,
 		SignUpModule,
 		SplashModule,
-		TrickModule,
+		TricksModule,
     RouterModule.forRoot(AppRoutes)
   ],
   declarations: [
