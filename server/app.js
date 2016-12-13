@@ -1,4 +1,3 @@
-/*jsline node: true, indent: 2 */
 'use strict';
 
 var express = require('express');
@@ -9,6 +8,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var dotenv = require('dotenv');
 var passport = require('passport');
+var jade = require('jade');
 
 var routes = require('./routes/');
 

@@ -1,3 +1,5 @@
+$sl-secondary: #1976D2 !default;
+
 .tricks {
 	padding: 16px;
 
@@ -10,31 +12,54 @@
 	}
 
 	&-item {
+		cursor: pointer;
 		padding: 0;		
     background-color: #f5f5f5;
+		border-bottom: 1px solid rgba(136, 136, 136, 0.64);
+		border-right: 1px solid rgba(136, 136, 136, 0.64);
+
+		> .qu-button-container {
+			width: 100%;
+
+			.qu-button {
+    		background-color: white;
+			}
+		}
+
+		&.active {
+			.qu-button {
+				background-color: rgba(183, 183, 183, 0.64);
+				border-radius: 0;
+			}
+		}
+
+		&-details {
+			text-align: left;
+		}
+		
+		&-heading {
+			font-size: 16px;
+			font-weight: 500;
+		}
+		
+		&-nav {
+			height: 100%;		
+			background-color: transparent;
+		}
 	}
 }
 
-.trick {
-	&-details {
-		padding: 16px;
+.trick-view {
+	h3 {
 		text-align: left;
 	}
-	
-	&-heading {
-		font-size: 22px;
-		font-weight: 500;
-	}
-	
-	&-view {
-		&-btn {
-//			height: 100%;
 
-			.qu-button {
-				height: 100%;		
-				background-color: transparent;
-				border-radius: 0;
-			}
+	&-positions {
+		.qu-link {
+			background-color: $sl-secondary;
+			color: white;
+			border: 1px solid white;
+			width: 75px;
 		}
 	}
 }

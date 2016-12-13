@@ -56,7 +56,7 @@
     "style-loader": "0.13.x",
     "typescript": "2.0.x",
     "webpack": "1.13.x",
-    "webpack-dev-server": "1.14.x",
+    "webpack-dev-server": "1.16.x",
     "webpack-merge": "0.14.x"
   }
 }

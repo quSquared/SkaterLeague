@@ -16,15 +16,15 @@ export class HeaderComponent {
 		private router: Router
 	) 
 	{
-		this.router.events.subscribe(value => {
-			if (value instanceof NavigationStart) {
-				if (value.url === '/' || value.url.indexOf('sign-up') > -1 || value.url.indexOf('sign-in') > -1) {
-					if (this.sideNavSvc.isOpen()) {					
-						this.toggle();	
-					}
-				}
-			}
-		});
+		// this.router.events.subscribe(value => {
+		// 	if (value instanceof NavigationStart) {
+		// 		if (value.url === '/' || value.url.indexOf('sign-up') > -1 || value.url.indexOf('sign-in') > -1) {
+		// 			if (this.sideNavSvc.isOpen()) {					
+		// 				this.toggle();	
+		// 			}
+		// 		}
+		// 	}
+		// });
 	}
 
 	toggle() {

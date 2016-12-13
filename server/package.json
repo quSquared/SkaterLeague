@@ -23,6 +23,7 @@
     "passport-local": "0.1.x"
   },
   "devDependencies": {
+    "jade": "1.11.0",
     "jshint": "2.9.x"
   }
 }
