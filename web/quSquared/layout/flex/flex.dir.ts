@@ -70,8 +70,8 @@ export class FlexAlignDirective implements OnInit {
 	selector: '[quFlex]'
 })
 export class FlexDirective implements OnInit {
-	private element: HTMLElement;  
-	private flexAmount?: number;
+	public element: HTMLElement;  
+	public flexAmount?: number;
 
   @Input()
   set quFlex(flexAmount: number) {
@@ -79,8 +79,8 @@ export class FlexDirective implements OnInit {
   }
 
 	constructor(
-		private elementRef: ElementRef,
-		private renderer: Renderer
+		public elementRef: ElementRef,
+		public renderer: Renderer
 	) { 	
 		this.element = this.elementRef.nativeElement;
 	}

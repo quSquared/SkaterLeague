@@ -1,30 +1,23 @@
-<div class="tricks" quFlexRow [quFlexAlign]="'center start'">
-	<div class="tricks-container qu-whiteframe-6" quFlex quFlexRow>
-		<div quFlex="30">
-			<qu-button *ngFor="let flipTrick of flipTricks; let i = index" class="tricks-item" quFlexRow [quFlexAlign]="'start center'" quFlex 
-					 [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, flipTrick)">
-				<div class="tricks-item-details" quFlex>
-					<div class="tricks-item-heading" quFlex>{{ flipTrick.name }}</div>
-					<div class="tricks-item-positions">
-						<qu-button>R {{ flipTrick.regularPoints }}</qu-button>			
-						<qu-button>F {{ flipTrick.fakiePoints }}</qu-button>			
-						<qu-button>S {{ flipTrick.switchPoints }}</qu-button>			
-						<qu-button>N {{ flipTrick.nolliePoints }}</qu-button>
-					</div>				
+<div class="tricks" qu-layout="row" qu-layout-align="center start">
+	<div class="tricks-container qu-whiteframe-6" qu-flex qu-flex.gt-md="70" qu-layout="row">
+		<div qu-flex="30" qu-flex.md>
+			<qu-button *ngFor="let flipTrick of flipTricks; let i = index" class="tricks-item" qu-layout="row" qu-layout-align="start center"
+				qu-flex [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, flipTrick)">
+				<div class="tricks-item-details" qu-flex>
+					<div class="tricks-item-heading" qu-flex>{{ flipTrick.name }}</div>
 				</div>
-				<div class="tricks-item-nav"><i class="material-icons">chevron_right</i></div>					
+				<div class="tricks-item-nav"><i class="material-icons">chevron_right</i></div>
 			</qu-button>
 		</div>
-		<div quFlex class="trick-view">
-			<iframe width="100%" height="400" [src]="trickUrl" frameborder="0" allowfullscreen></iframe>
-			<div quFlexRow [quFlexAlign]="'center start'" class="trick-view-positions">
-				<qu-link>Regular</qu-link>
-				<qu-link>Fakie</qu-link>
-				<qu-link>Switch</qu-link>
-				<qu-link>Nollie</qu-link>
+		<div qu-flex class="trick-view">
+			<div qu-layout-align="start center" [hidden]="activeTrick">
+				<h3>Select a trick</h3>
 			</div>
-			<div quFlex>
-				<h3>{{ activeTrick?.name }}</h3>
+			<div [hidden]="!activeTrick">
+				<iframe class="trick-view-url" [src]="trickUrl" frameborder="0" allowfullscreen></iframe>
+				<div qu-flex>
+					<h3>{{ activeTrick?.name }}</h3> 
+				</div>
 			</div>
 		</div>
 	</div>

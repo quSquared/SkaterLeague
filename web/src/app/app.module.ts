@@ -4,7 +4,7 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { HttpModule, JsonpModule }  from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
-import { QuSquaredModule } from '../../quSquared';
+import { QuSquaredModule, FlexLayoutModule } from '../../quSquared';
 
 import { AppRoutes } from './app.routes';
 import { AppComponent } from './app.comp';
@@ -16,7 +16,7 @@ import { ProfileModule } from '../profile/profile.module';
 import { SignInModule } from '../sign-in/sign-in.module';
 import { SignUpModule } from '../sign-up/sign-up.module';
 import { SplashModule } from '../splash/splash.module';
-import { TricksModule } from '../tricks/tricks.module';
+import { TricksModule } from '../tricks/tricks.module'; 
 
 import { UserService } from '../user/user.svc';
 
@@ -27,6 +27,7 @@ import { UserService } from '../user/user.svc';
     HttpModule,
     JsonpModule,
     QuSquaredModule,
+		FlexLayoutModule.forRoot(),
 		HomeModule,
 		ProfileModule,
     SignInModule,

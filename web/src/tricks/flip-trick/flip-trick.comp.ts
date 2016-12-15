@@ -14,8 +14,8 @@ import { FlipTrickService } from './flip-trick.svc';
 export class FlipTrickComponent {
 	public flipTricks: any[];
 	public trickUrl: SafeResourceUrl;
-	public activeIndex: number;
-	public activeTrick: any;
+	public activeIndex?: number = null;
+	public activeTrick?: any = null;
 
 	constructor(private flipTrickSvc: FlipTrickService,
 		private sanitizer: DomSanitizer) 
