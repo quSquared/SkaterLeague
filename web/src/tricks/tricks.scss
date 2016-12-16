@@ -27,13 +27,17 @@ $sl-secondary: #1976D2 !default;
 
 			.qu-button {
     		background-color: white;
-			}
+
+				> span {
+					padding: 12px;
+				}
+			}							
 		}
 
 		&.active {
 			.qu-button {
 				background-color: rgba(183, 183, 183, 0.64);
-				border-radius: 0;
+				border-radius: 0;				
 			}
 		}
 
@@ -51,13 +55,22 @@ $sl-secondary: #1976D2 !default;
 			color: #6d6d6d;
 		}
 
-		&-points {			
-			background: #2C3E50; //#34495E
-			color: white;
-			padding: 4px;
-			width: 20px;
-			border-radius: 10px;
+		&-icon {
+			height: 40px;
+			width: 60px;			
+		}
+
+		&-points {			    
+    	font-size: 24px;			
 			text-align: center;
+			background: white;
+			color: #2C3E50;
+			
+			height: 40px;
+			width: 40px;
+			padding-top: 5px;
+			border-radius: 50%;
+			border: 1px solid #2C3E50;
 		}
 		
 		&-nav {

@@ -23,11 +23,11 @@ VALUES
 ('Switch Ollie', 'Switch Ollie', '', 5, (select id from position where name = 'switch'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/XY_fvQhpBEU'),
 ('Nollie', 'Nollie', '', 5, (select id from position where name = 'nollie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/8edqWNXp0WY'),
 ('Frontside 180', 'FS 180', '', 3, (select id from position where name = 'regular'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/OqYb98vp0zI'),
-('Fakie Frontside 180', 'Fakie FS 180', '', 4, (select id from position where name = 'fakie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/c9V0p_nobeE'),
+('Fakie Frontside 180', 'FS Half Cab', '', 4, (select id from position where name = 'fakie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/c9V0p_nobeE'),
 ('Switch Frontside 180', 'Switch FS 180', '', 5, (select id from position where name = 'switch'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/cFeX-erW4BQ'),
 ('Nollie Frontside 180', 'Nollie FS 180', '', 5, (select id from position where name = 'nollie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/jDgwtHKuTJc'),
 ('Backside 180', 'BS 180', '', 3, (select id from position where name = 'regular'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/5RtkYzx3TdE'),
-('Fakie Backside 180', 'Halfcab', '', 4, (select id from position where name = 'fakie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/P_BEJVUn7Jk'),
+('Fakie Backside 180', 'BS Half Cab', '', 4, (select id from position where name = 'fakie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/P_BEJVUn7Jk'),
 ('Switch Backside 180', 'Switch BS 180', '', 5, (select id from position where name = 'switch'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/EVcrXmvcAKk'),
 ('Nollie Backside 180', 'Nollie BS 180', '', 5, (select id from position where name = 'nollie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/o6DkecApPk4')
 

@@ -3,13 +3,15 @@
 		<div qu-flex="30" qu-flex.md>
 			<qu-button *ngFor="let flipTrick of flipTricks; let i = index" class="tricks-item" qu-layout="row" qu-layout-align="start center"
 				qu-flex [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, flipTrick)">
+				<div class="tricks-item-icon">
+						<div class="tricks-item-points">{{ flipTrick.points }}</div>
+				</div>
 				<div class="tricks-item-details">
 					<div class="tricks-item-heading">
 						{{ flipTrick.displayName }}
 					</div>
 					<div class="tricks-item-body">
 						<span class="tricks-item-name">{{ flipTrick.name }}</span> 
-						<span class="tricks-item-points">{{ flipTrick.points }}</span>
 					</div>
 				</div>
 				<div class="tricks-item-nav"><i class="material-icons">chevron_right</i></div>
