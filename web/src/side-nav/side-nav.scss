@@ -1,4 +1,3 @@
-$sl-gray-dark: #616161 !default;
 $sl-secondary: #1976D0 !default;
 $sl-primary-darker: #B71C1C !default;
 
@@ -11,8 +10,8 @@ $sl-primary-darker: #B71C1C !default;
 
 	&-profile {
 		height: 150px;
-		color: white;
-		background-color: $sl-primary-darker;
+		color: $sl-secondary;
+		background-color: white;
 
 		h3 {
 			text-align: center;
@@ -27,8 +26,8 @@ $sl-primary-darker: #B71C1C !default;
 	.qu-link {
 		width: 100%;
 		border-radius: 0;
-		background-color: whitesmoke;
-		color: $sl-gray-dark;
+		background-color: white;
+		color: $sl-secondary;
 		height: 60px;
 		font-size: 20px;
 

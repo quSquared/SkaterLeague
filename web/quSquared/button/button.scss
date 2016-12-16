@@ -18,7 +18,7 @@ $qu-primary-btn-color: white !default;
 
 		border-width: 0;
 		outline: none;
-		border-radius: 2px;
+		border-radius: 4px;
 				
 		background-color: white;
 		color: black;
@@ -28,7 +28,7 @@ $qu-primary-btn-color: white !default;
 		position: relative;
 	}
 
-	button span {
+	button > span {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;

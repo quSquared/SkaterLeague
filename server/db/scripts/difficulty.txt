@@ -1,0 +1,13 @@
+CREATE TABLE `difficulty` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name_UNIQUE` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `difficulty` (name)
+VALUES
+('basic'),
+('intermediate'),
+('advanced'),
+('pro')

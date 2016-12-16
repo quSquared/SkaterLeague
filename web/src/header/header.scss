@@ -1,13 +1,14 @@
-$sl-primary-darker: #B71C1C;
+$sl-primary: #D64541 !default;
+$sl-primary-dark: #751515 !default;
 
 .header {
     position: fixed;
 
     width: 100%;
     height: 64px;
-    
-    background-color: white;
-		color: $sl-primary-darker;
+		
+    background-color: $sl-primary;
+    color: $sl-primary-dark;
 		
     z-index: 9999;
 
@@ -43,8 +44,8 @@ $sl-primary-darker: #B71C1C;
 		}
 
 		.qu-button, .qu-link {
-			background-color: white;
-			color: $sl-primary-darker;
+			background-color: $sl-primary;
+			color: $sl-primary-dark;
 			border-radius: 0;
 
 			i {

@@ -3,8 +3,14 @@
 		<div qu-flex="30" qu-flex.md>
 			<qu-button *ngFor="let flipTrick of flipTricks; let i = index" class="tricks-item" qu-layout="row" qu-layout-align="start center"
 				qu-flex [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, flipTrick)">
-				<div class="tricks-item-details" qu-flex>
-					<div class="tricks-item-heading" qu-flex>{{ flipTrick.name }}</div>
+				<div class="tricks-item-details">
+					<div class="tricks-item-heading">
+						{{ flipTrick.displayName }}
+					</div>
+					<div class="tricks-item-body">
+						<span class="tricks-item-name">{{ flipTrick.name }}</span> 
+						<span class="tricks-item-points">{{ flipTrick.points }}</span>
+					</div>
 				</div>
 				<div class="tricks-item-nav"><i class="material-icons">chevron_right</i></div>
 			</qu-button>
@@ -14,9 +20,9 @@
 				<h3>Select a trick</h3>
 			</div>
 			<div [hidden]="!activeTrick">
-				<iframe class="trick-view-url" [src]="trickUrl" frameborder="0" allowfullscreen></iframe>
+				<iframe class="trick-view-url" [src]="trickUrl" frameborder="0" allowfullscreen *ngIf="activeTrick"></iframe>
 				<div qu-flex>
-					<h3>{{ activeTrick?.name }}</h3> 
+					<h3>{{ activeTrick?.displayName }}</h3>
 				</div>
 			</div>
 		</div>

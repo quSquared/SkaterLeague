@@ -1,0 +1,12 @@
+$sl-secondary: #2C3E50 !default;
+
+.qu-input-container {
+	/* active state */
+	> input:focus ~ label, > input:valid ~ label 		{
+    color: $sl-secondary;
+	}
+
+	> input:active, > input:focus {
+		border-color: $sl-secondary;
+	}
+}

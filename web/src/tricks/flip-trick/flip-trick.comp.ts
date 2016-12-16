@@ -20,7 +20,6 @@ export class FlipTrickComponent {
 	constructor(private flipTrickSvc: FlipTrickService,
 		private sanitizer: DomSanitizer) 
 	{
-		this.trickUrl = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/nCrhf-pyX_g');
 		this.flipTrickSvc.getAll().subscribe(response => {
 			this.flipTricks = response;
 		},
@@ -30,5 +29,6 @@ export class FlipTrickComponent {
 	public viewTrick (index: number, trick: any) {
 		this.activeIndex = index;
 		this.activeTrick = trick;
+		this.trickUrl = this.sanitizer.bypassSecurityTrustResourceUrl(trick.url);
 	}
 }

@@ -39,11 +39,25 @@ $sl-secondary: #1976D2 !default;
 
 		&-details {
 			text-align: left;
+			width: 100%;
 		}
 		
 		&-heading {
 			font-size: 16px;
 			font-weight: 500;
+		}
+
+		&-name {
+			color: #6d6d6d;
+		}
+
+		&-points {			
+			background: #2C3E50; //#34495E
+			color: white;
+			padding: 4px;
+			width: 20px;
+			border-radius: 10px;
+			text-align: center;
 		}
 		
 		&-nav {

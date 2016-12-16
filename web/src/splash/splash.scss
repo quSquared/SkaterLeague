@@ -1,5 +1,5 @@
-$qu-primary-primary-bg: #f44336;
-$qu-primary-primary-color: #ecf0f1;
+$sl-primary: #D64541 !default;
+$sl-secondary: #ecf0f1 !default;
 
 .splash {	
 	position: fixed;
@@ -13,11 +13,11 @@ $qu-primary-primary-color: #ecf0f1;
 	flex-direction: column;
 	align-items: center;
 
-	background: #f44336; /* For browsers that do not support gradients */
-  background: -webkit-radial-gradient(#E57373, #EF5350, #f44336);; /* Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(#E57373, #EF5350, #f44336);; /* For Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(#E57373, #EF5350, #f44336);; /* For Firefox 3.6 to 15 */
-  background: radial-gradient(#E57373, #EF5350, #f44336);; /* Standard syntax */
+	background: $sl-primary; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient($sl-primary, $sl-secondary); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient($sl-primary, $sl-secondary); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient($sl-primary, $sl-secondary); /* For Firefox 3.6 to 15 */
+	background: linear-gradient($sl-primary, $sl-secondary); /* Standard syntax */ 
 
 	h1 {
 		color: white;
@@ -40,6 +40,7 @@ $qu-primary-primary-color: #ecf0f1;
 			width: 200px;
 			height: 60px;
 			font-size: 20px;
+			margin-bottom: 16px;
 		}
 	}
 }
