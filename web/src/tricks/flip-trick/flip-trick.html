@@ -4,7 +4,10 @@
 			<qu-button *ngFor="let flipTrick of flipTricks; let i = index" class="tricks-item" qu-layout="row" qu-layout-align="start center"
 				qu-flex [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, flipTrick)">
 				<div class="tricks-item-icon">
-						<div class="tricks-item-points">{{ flipTrick.points }}</div>
+						<div class="tricks-item-points" *ngIf="i % 2 == 0">{{ flipTrick.points }}</div>
+						<div class="tricks-item-points" *ngIf="i % 2 > 0" [ngClass]="{checked: i % 2 > 0}"> 
+							<i class="material-icons">check</i>
+						</div>
 				</div>
 				<div class="tricks-item-details">
 					<div class="tricks-item-heading">
@@ -24,7 +27,26 @@
 			<div [hidden]="!activeTrick">
 				<iframe class="trick-view-url" [src]="trickUrl" frameborder="0" allowfullscreen *ngIf="activeTrick"></iframe>
 				<div qu-flex>
-					<h3>{{ activeTrick?.displayName }}</h3>
+				<h3 qu-layout="row" qu-layout-align="start center">
+						{{ activeTrick?.displayName }}
+						<span qu-flex></span>
+						<qu-button class="trick-status-stop" [hidden]="activeTrick?.status != 'InProgress'">
+							<i class="material-icons">stop</i>
+							Stop
+						</qu-button>
+						<qu-button class="trick-status-start" [hidden]="activeTrick?.status == 'InProgress' || activeTrick?.status == 'Completed'">
+							<i class="material-icons">play_arrow</i>
+							Learn
+						</qu-button>
+						<qu-button class="trick-status-inprogress" [hidden]="activeTrick?.status != 'InProgress'">
+							<i class="material-icons">sync</i>
+							Learning
+						</qu-button>
+						<qu-button class="trick-status-completed" [hidden]="activeTrick?.status != 'Completed'">
+							<i class="material-icons">check</i>				
+							Learned
+						</qu-button>
+					</h3>
 				</div>
 			</div>
 		</div>

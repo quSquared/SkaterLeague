@@ -1,3 +1,26 @@
-<div class="profile-view">
-	Profile View
+<div class="profile-view" qu-layout="row" qu-layout-align="center start">
+	<div class="profile-view-container qu-whiteframe-6" qu-flex qu-flex.gt-md="70" qu-layout="row" qu-layout-wrap>
+		<div qu-layout="row" qu-flex="100" qu-layout-align="center center" class="profile-view-bg">
+			<i class="profile-view-bg-add-img material-icons">add_a_photo</i>
+			<img class="profile-view-bg-img" [src]="profile?.bgImg" *ngIf="profile.bgImg">
+		</div>
+		<img class="profile-view-avatar qu-whiteframe-6" [src]="profile?.avatarImg" *ngIf="profile.avatarImg">
+		<div qu-layout="row" qu-flex="100" class="profile-view-heading">
+			<span class="profile-view-heading name">Michael Taylor</span>
+			<span qu-flex></span>
+			<span>Followers</span>
+			<span>Following</span>
+		</div>
+		<div qu-layout="row" qu-flex="100" qu-layout-align="center" class="profile-view-stats">
+			<div qu-flex="25" class="">
+				Tricks
+			</div> 
+			<div qu-flex="25" class="">
+				Rank
+			</div>
+			<div qu-flex="25" class="">
+				Game Stats
+			</div>
+		</div>
+	</div>
 </div>

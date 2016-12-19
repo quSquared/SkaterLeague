@@ -68,9 +68,14 @@ $sl-secondary: #1976D2 !default;
 			
 			height: 40px;
 			width: 40px;
-			padding-top: 5px;
+			padding-top: 6px;
 			border-radius: 50%;
-			border: 1px solid #2C3E50;
+			border: 2px solid #2C3E50;
+
+			&.checked {
+				border-color: #91cf1e;
+				color: #91cf1e;
+			}
 		}
 		
 		&-nav {
@@ -102,5 +107,35 @@ $sl-secondary: #1976D2 !default;
 	}
 	h3 {
 		text-align: left;
+	}
+}
+.trick-status {
+	&-stop {
+		margin-right: 8px;
+		.qu-button {
+			background-color: #cf1e1e;
+			color: white;
+		}
+	}
+
+	&-start {
+		.qu-button {
+			background-color: #2C3E50;
+			color: white;
+		}
+	}
+
+	&-inprogress {
+		.qu-button {
+			background-color: #1976D2;
+			color: white;
+		}
+	}
+
+	&-completed {
+		.qu-button {
+			background-color: #91cf1e;
+			color: white;
+		}
 	}
 }

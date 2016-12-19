@@ -7,8 +7,11 @@ import { NgForm } from '@angular/forms';
 	providers: []
 })
 export class ProfileViewComponent implements OnInit {
+	profile: any = {};
 
 	constructor() {
+		this.profile.avatarImg = '../../../img/my-profile.jpg';
+		this.profile.bgImg = null;
 	}
 
 	ngOnInit() {

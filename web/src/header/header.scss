@@ -14,20 +14,45 @@ $sl-primary-dark: #751515 !default;
 
 		> div {
 			height: 100%;
-			
-			> span {
-				flex: 100%;
-			}			
+		}
+
+		img {
+			height: 40px;
+			width: 40px;
+			margin-right: 8px;
+			border-radius: 50%;
 		}
 
 		&-brand {			
 			a {
 				margin-bottom: 0;
-				width: 185px;
+				width: 200px;
 			}
 			span {
 				padding: 0 !important;
-				font-size: 26px;
+				font-size: 30px;
+			}
+		}
+
+		&-search {
+
+			> i {
+				position: relative;
+				left: 36px;
+				top: 4px;
+				color: #2C3E50;
+			}
+
+			> input {
+				border: none;
+				padding: 18px;
+				font-size: 24px;
+				font-weight: 200;
+				padding-left: 40px;
+
+				&:focus {
+					outline: none;
+				}
 			}
 		}
 
@@ -49,7 +74,7 @@ $sl-primary-dark: #751515 !default;
 			border-radius: 0;
 
 			i {
-				font-size: 30px;
+				font-size: 40px;
 			}
 		}
 }

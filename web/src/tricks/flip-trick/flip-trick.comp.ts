@@ -4,6 +4,13 @@ import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browse
 
 import { FlipTrickService } from './flip-trick.svc';
 
+enum Status {
+	Stop = 0,
+	Start = 1,
+	InProgress = 2,
+	Completed = 3
+};
+
 @Component({
 	selector: 'sl-flip-trick',
 	templateUrl: './flip-trick.html',
@@ -13,9 +20,9 @@ import { FlipTrickService } from './flip-trick.svc';
 })
 export class FlipTrickComponent {
 	public flipTricks: any[];
-	public trickUrl: SafeResourceUrl;
-	public activeIndex?: number = null;
-	public activeTrick?: any = null;
+	public trickUrl?: SafeResourceUrl;
+	public activeIndex?: number;
+	public activeTrick?: any;
 
 	constructor(private flipTrickSvc: FlipTrickService,
 		private sanitizer: DomSanitizer) 
@@ -29,6 +36,7 @@ export class FlipTrickComponent {
 	public viewTrick (index: number, trick: any) {
 		this.activeIndex = index;
 		this.activeTrick = trick;
+		this.activeTrick.status = index % 2 > 0 ? Status[3] : Status[2];
 		this.trickUrl = this.sanitizer.bypassSecurityTrustResourceUrl(trick.url);
 	}
 }

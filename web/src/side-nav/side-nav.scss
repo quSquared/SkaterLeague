@@ -1,5 +1,5 @@
 $sl-secondary: #1976D0 !default;
-$sl-primary-darker: #B71C1C !default;
+$sl-primary: #B71C1C !default;
 
 .side-nav {
 	
@@ -10,12 +10,27 @@ $sl-primary-darker: #B71C1C !default;
 
 	&-profile {
 		height: 150px;
-		color: $sl-secondary;
-		background-color: white;
+		color: white;
+		background-color: $sl-secondary;
+
+		img {
+			height: 40px;
+			width: 40px;
+			margin-right: 8px;
+			border-radius: 50%;
+		}
 
 		h3 {
 			text-align: center;
 			font-weight: 100;
+			padding-left: 16px;
+		}
+
+		h1 {
+			font-size: 30px;
+			font-family: "SLR Font";
+			color: $sl-primary;
+			text-align: center;
 		}
 	}
 
@@ -45,6 +60,7 @@ $sl-primary-darker: #B71C1C !default;
 
 			> i {
 				font-size: 30px;
+				margin-right: 8px;
 			}
 		}
 	}

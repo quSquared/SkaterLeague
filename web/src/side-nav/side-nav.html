@@ -1,11 +1,15 @@
 <qu-side-nav class="side-nav">
 	<div quFlexColumn>
 		<div class="side-nav-profile">
-			<h3>{{ user?.firstName }} {{ user?.lastName }} </h3>
+			<h3 qu-layout="row" qu-layout-align="start center">
+			 	<img src="../../img/my-profile.jpg"/>
+				Michael Taylor {{ user?.firstName }} {{ user?.lastName }} </h3>
+			<h1>SLR 5</h1>
 		</div>
 		<div>
+			<qu-link [quHref]="'home'"><i class="material-icons">home</i>Home</qu-link>
 			<qu-link><i class="material-icons">public</i>Discover</qu-link>
-			<qu-link><i class="material-icons">account_circle</i>Profile</qu-link>
+			<qu-link [quHref]="'profile/michael/view'"><i class="material-icons">account_circle</i>Profile</qu-link>
 			<qu-link [quHref]="'tricks/flip'"><i class="material-icons">widgets</i>Tricks</qu-link>
 			<qu-link><i class="material-icons">games</i>Games</qu-link>
 		</div>

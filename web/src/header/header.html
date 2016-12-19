@@ -1,12 +1,20 @@
 <div class="header qu-whiteframe-6">
 	<div quFlexRow [quFlexAlign]="'center center'">
-		<qu-button (click)="toggle()"><i class="material-icons">menu</i></qu-button>
+		<qu-button (click)="toggle()">
+			<i class="material-icons">menu</i>
+		</qu-button>
 		<qu-link class="header-brand" [quHref]="">Skater League</qu-link>
-		<span></span>	
-		<qu-nav-bar>
-			<qu-link [quHref]="'home'">Home</qu-link>
-			<qu-link [quHref]="'about'">About</qu-link>
-			<qu-link [quHref]="'contact'">Contact</qu-link>
-		</qu-nav-bar>
+		<span qu-flex></span>
+		<qu-button (click)="toggleSearch()" [hidden]="searchFocus">
+			<i class="material-icons">search</i>
+		</qu-button>
+		<div class="header-search"  [hidden]="!searchFocus">
+			<i class="material-icons">search</i>
+			<input #inpSearchFor type="text" [(ngModel)]="searchFor" placeholder="Search" (blur)="toggleSearch()">
+		</div>
+		<qu-button>
+			<!--<img src="../../img/my-profile.jpg"/>-->
+			<i class="material-icons">account_circle</i>
+		</qu-button>
 	</div>
 </div>

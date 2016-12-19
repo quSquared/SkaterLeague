@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, Renderer, ElementRef } from '@angular/core';
 import { Router, NavigationStart } from "@angular/router";
 
 import { SideNavService } from '../../quSquared/side-nav/side-nav.svc';
@@ -9,13 +9,18 @@ import { SideNavService } from '../../quSquared/side-nav/side-nav.svc';
   styleUrls: ['./header.scss'],
 	providers: [SideNavService]
 })
-export class HeaderComponent { 
+export class HeaderComponent {
+  @ViewChild('inpSearchFor') inpSearchFor: ElementRef;
+	public searchFocus: boolean = false;
+	public searchFor: string = null;
 
 	constructor(
 		private sideNavSvc: SideNavService,
-		private router: Router
+		private router: Router,
+		private renderer: Renderer
 	) 
 	{
+
 		// this.router.events.subscribe(value => {
 		// 	if (value instanceof NavigationStart) {
 		// 		if (value.url === '/' || value.url.indexOf('sign-up') > -1 || value.url.indexOf('sign-in') > -1) {
@@ -29,5 +34,15 @@ export class HeaderComponent {
 
 	toggle() {
 		this.sideNavSvc.toggle();
+	}
+
+	toggleSearch() {
+		this.searchFocus = !this.searchFocus;
+
+		if (this.searchFocus) {
+			setTimeout(() => {
+				this.renderer.invokeElementMethod(this.inpSearchFor.nativeElement, 'focus');
+			}, 0);
+		}
 	}
 }
