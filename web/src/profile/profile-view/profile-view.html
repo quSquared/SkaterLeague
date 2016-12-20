@@ -6,21 +6,42 @@
 		</div>
 		<img class="profile-view-avatar qu-whiteframe-6" [src]="profile?.avatarImg" *ngIf="profile.avatarImg">
 		<div qu-layout="row" qu-flex="100" class="profile-view-heading">
-			<span class="profile-view-heading name">Michael Taylor</span>
+			<span class="name">{{ profile?.name }}</span>
 			<span qu-flex></span>
-			<span>Followers</span>
-			<span>Following</span>
+			<span class="followers"><strong>{{ profile?.followers }}</strong> Followers</span>
+			<span class="following"><strong>{{ profile?.following }}</strong> Following</span>
 		</div>
 		<div qu-layout="row" qu-flex="100" qu-layout-align="center" class="profile-view-stats">
-			<div qu-flex="25" class="">
-				Tricks
+			<div qu-flex="25" qu-layout="column" qu-layout-align="center">
+				<span>Tricks</span>
+				<span class="profile-view-stats-tricks">{{ profile?.tricks }}</span>
+				<div class="profile-view-stats-bar"></div>
 			</div> 
-			<div qu-flex="25" class="">
-				Rank
+			<div qu-flex="25" qu-layout="column" qu-layout-align="center">
+				<span>Rank</span>
+				<span class="profile-view-stats-rank">SLR {{ profile?.rank }}</span>
+				<div class="profile-view-stats-bar"></div>
 			</div>
-			<div qu-flex="25" class="">
-				Game Stats
+			<div qu-flex="25" qu-layout="column" qu-layout-align="center">
+				<span>Games Played</span>
+				<span class="profile-view-stats-games-played">{{ profile?.gamesPlayed }}</span>
+				<span class="profile-view-stats-bar"></span>
 			</div>
+		</div>
+		<div qu-layout="row" qu-flex="100" qu-layout-align="center" class="profile-view-stats">
+			<qu-button>
+				<i class="material-icons">apps</i>
+			</qu-button>
+			<qu-button>
+				<i class="material-icons">format_list_bulleted</i>
+			</qu-button>
+		</div>
+		<div class="profile-view-content">
+			<!--<a>
+				<figure>
+					<img *ngFor="let content of contents" [src]="content?.url">
+				</figure>
+			</a>-->
 		</div>
 	</div>
 </div>

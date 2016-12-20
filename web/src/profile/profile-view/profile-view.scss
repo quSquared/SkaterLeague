@@ -25,8 +25,88 @@
 	&-heading {
 		padding: 16px;
 
-		&.name {
+		.name {
 			font-size: 30px;
+		}
+
+		.following,
+		.followers {
+			margin-right: 16px;
+		}
+	}
+
+	&-stats {
+		margin-top: 16px;
+		margin-bottom: 16px;
+		
+		&-tricks {
+			font-size: 24px;
+			color: #4B77BE;
+		}
+		&-tricks + &-bar {
+			background-color: #4B77BE;
+		}
+
+		&-rank {
+			font-size: 24px;
+			font-family: SLR Font;
+			color: $sl-primary;
+		}
+		&-rank + &-bar {
+			background-color: $sl-primary;
+		}
+
+		&-games-played {
+			font-size: 24px;
+			color: #00B16A;
+		}
+		&-games-played + &-bar {
+			background-color: #00B16A;
+		}
+
+		&-bar {
+			width: 50%;
+			height: 4px;
+			border-radius: 10px;
+			margin: auto;
+		}
+	}
+
+	&-content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between; /* or space-around */
+
+		a {
+			display: inline-block;
+			margin-bottom: 8px;
+			width: calc(50% - 4px);
+			text-decoration: none;
+			color: black;
+		}
+
+		@media screen and (min-width: 50em) {
+			a {
+				width: calc(25% - 6px);
+			}
+		}
+
+		a:hover img {
+			transform: scale(1.15);
+		}
+
+		figure {
+			margin: 0;
+			overflow: hidden;
+		}
+
+		img {
+			border: none;
+			max-width: 100%;
+			height: auto;
+			display: block;
+			background: #ccc;
+			transition: transform .2s ease-in-out;
 		}
 	}
 }

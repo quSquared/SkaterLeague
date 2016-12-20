@@ -1,3 +1,4 @@
+$sl-primary: black !default;
 $sl-secondary: #1976D2 !default;
 
 .tricks {
@@ -23,7 +24,7 @@ $sl-secondary: #1976D2 !default;
 		border-right: 1px solid rgba(136, 136, 136, 0.64);
 
 		> .qu-button-container {
-			width: 100%;
+			width: 50%;
 
 			.qu-button {
     		background-color: white;
