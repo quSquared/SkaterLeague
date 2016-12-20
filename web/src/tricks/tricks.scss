@@ -69,13 +69,14 @@ $sl-secondary: #1976D2 !default;
 			
 			height: 40px;
 			width: 40px;
-			padding-top: 6px;
+			padding-top: 4px;
 			border-radius: 50%;
 			border: 2px solid #2C3E50;
 
 			&.checked {
 				border-color: #91cf1e;
 				color: #91cf1e;
+				padding-top: 2px;
 			}
 		}
 		

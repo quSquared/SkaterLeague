@@ -28,8 +28,6 @@
   },
   "devDependencies": {
     "@types/core-js": "0.9.x",
-    "@types/gapi": "0.0.x",
-    "@types/gapi.auth2": "0.0.x",
     "@types/jasmine": "2.5.x",
     "@types/jquery": "2.0.x",
     "@types/lodash": "4.14.x",
