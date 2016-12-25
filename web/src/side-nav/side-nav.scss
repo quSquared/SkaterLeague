@@ -5,7 +5,9 @@ $sl-primary: #B71C1C !default;
 	
 	.qu-side-nav {
 		z-index: 9999;
-		margin-top: 64px;
+		margin-top: 64px;    
+		height: calc(100% - 64px);
+		overflow: auto;
 	}
 
 	&-profile {
@@ -63,5 +65,10 @@ $sl-primary: #B71C1C !default;
 				margin-right: 8px;
 			}
 		}
+	}
+
+	.separator {
+		width: 100%;
+		border-bottom: 1px solid #e4e4e4;
 	}
 }

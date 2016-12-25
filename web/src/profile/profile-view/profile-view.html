@@ -12,21 +12,21 @@
 			<span class="following"><strong>{{ profile?.following }}</strong> Following</span>
 		</div>
 		<div qu-layout="row" qu-flex="100" qu-layout-align="center" class="profile-view-stats">
-			<div qu-flex="25" qu-layout="column" qu-layout-align="center">
+			<a qu-flex="25" qu-layout="column" qu-layout-align="center" routerLink="tricks">
 				<span>Tricks</span>
 				<span class="profile-view-stats-tricks">{{ profile?.tricks }}</span>
 				<div class="profile-view-stats-bar"></div>
-			</div> 
-			<div qu-flex="25" qu-layout="column" qu-layout-align="center">
+			</a> 
+			<a qu-flex="25" qu-layout="column" qu-layout-align="center" routerLink="tricks">
 				<span>Rank</span>
 				<span class="profile-view-stats-rank">SLR {{ profile?.rank }}</span>
 				<div class="profile-view-stats-bar"></div>
-			</div>
-			<div qu-flex="25" qu-layout="column" qu-layout-align="center">
+			</a>
+			<a qu-flex="25" qu-layout="column" qu-layout-align="center" routerLink="tricks">
 				<span>Games Played</span>
 				<span class="profile-view-stats-games-played">{{ profile?.gamesPlayed }}</span>
 				<span class="profile-view-stats-bar"></span>
-			</div>
+			</a>
 		</div>
 		<div qu-layout="row" qu-flex="100" qu-layout-align="center" class="profile-view-stats">
 			<qu-button>

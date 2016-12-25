@@ -6,12 +6,15 @@
 				Michael Taylor {{ user?.firstName }} {{ user?.lastName }} </h3>
 			<h1>SLR 5</h1>
 		</div>
-		<div>
+		<div qu-flex>
+			<qu-link [quHref]="'profile/michael'"><i class="material-icons">account_circle</i>Profile</qu-link>
+			<qu-link [quHref]="'profile/michael/progress'"><i class="material-icons">sync</i>In Progress</qu-link>
+			<qu-link [quHref]="'profile/michael/progress'"><i class="material-icons">show_chart</i>Stats</qu-link>
+			<div class="separator"></div>			
 			<qu-link [quHref]="'home'"><i class="material-icons">home</i>Home</qu-link>
 			<qu-link><i class="material-icons">public</i>Discover</qu-link>
-			<qu-link [quHref]="'profile/michael/view'"><i class="material-icons">account_circle</i>Profile</qu-link>
 			<qu-link [quHref]="'tricks/flip'"><i class="material-icons">widgets</i>Tricks</qu-link>
-			<qu-link><i class="material-icons">games</i>Games</qu-link>
+			<qu-link [quHref]="games"><i class="material-icons">games</i>Games</qu-link>
 		</div>
 	</div>
 </qu-side-nav>
