@@ -5,7 +5,8 @@ import { CommonModule }  from '@angular/common';
 import { QuSquaredModule, FlexLayoutModule } from '../../quSquared';
 
 import { TricksRoutes } from "./tricks.routes";
-import { FlipTrickComponent } from "./flip-trick/flip-trick.comp";
+import { TrickResolver } from "./trick/trick.resolve";
+import { TrickComponent } from "./trick/trick.comp";
 
 @NgModule({
   imports: [
@@ -16,7 +17,10 @@ import { FlipTrickComponent } from "./flip-trick/flip-trick.comp";
 		FlexLayoutModule.forRoot()
   ],
   declarations: [
-    FlipTrickComponent
-  ]
+    TrickComponent
+  ],
+	providers: [
+		TrickResolver
+	]
 })
 export class TricksModule { }

@@ -1,4 +1,4 @@
-CREATE TABLE `flip_trick` (
+CREATE TABLE `trick` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `displayName` varchar(100) DEFAULT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE `flip_trick` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-INSERT INTO flip_trick (name, displayName, description, points, positionId, difficultyId, url)  
+INSERT INTO trick (name, displayName, description, points, positionId, difficultyId, url)  
 VALUES
 ('Ollie', 'Ollie', '', 3, (select id from position where name = 'regular'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/nCrhf-pyX_g'),
 ('Fakie Ollie', 'Fakie Ollie', '', 4, (select id from position where name = 'fakie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/lB-bUztQXjE'),

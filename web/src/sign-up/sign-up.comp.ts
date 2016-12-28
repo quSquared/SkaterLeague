@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
+
 import { SignUpService } from './sign-up.svc';
+import { UserService } from './../user/user.svc';
 
 @Component({
 	selector: 'sl-sign-up',
@@ -12,6 +14,7 @@ export class SignUpComponent implements OnInit {
 
 	constructor(
 		private signUpService: SignUpService,
+		private userSvc: UserService,
 		private router: Router) {		
 	}
 
@@ -24,7 +27,7 @@ export class SignUpComponent implements OnInit {
 			.subscribe(
 				response => {
 					// direct to profile
-					console.log('register user', response);
+					this.userSvc.setLoggedIn(response);
 					this.router.navigate(['home']);
 				},			
 				error => this.errorMessage = <any>error);

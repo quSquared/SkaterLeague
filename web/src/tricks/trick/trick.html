@@ -1,20 +1,20 @@
 <div class="tricks" qu-layout="row" qu-layout-align="center start">
 	<div class="tricks-container qu-whiteframe-6" qu-flex qu-flex.gt-md="70" qu-layout="row">
 		<div qu-flex="30" qu-flex.md>
-			<qu-button *ngFor="let flipTrick of flipTricks; let i = index" class="tricks-item" qu-layout="row" qu-layout-align="start center"
-				qu-flex [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, flipTrick)">
+			<qu-button *ngFor="let trick of tricks; let i = index" class="tricks-item" qu-layout="row" qu-layout-align="start center"
+				qu-flex [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, trick)">
 				<div class="tricks-item-icon">
-						<div class="tricks-item-points" *ngIf="i % 2 == 0">{{ flipTrick.points }}</div>
-						<div class="tricks-item-points" *ngIf="i % 2 > 0" [ngClass]="{checked: i % 2 > 0}"> 
-							<i class="material-icons">check</i>
+						<div class="tricks-item-points" [ngClass]="{checked: hasTrick(trick.name)}"> 
+							<span [hidden]="hasTrick(trick.name)">{{ trick.points }}</span>
+							<span [hidden]="!hasTrick(trick.name)"><i class="material-icons">check</i></span>
 						</div>
 				</div>
 				<div class="tricks-item-details">
 					<div class="tricks-item-heading">
-						{{ flipTrick.displayName }}
+						{{ trick.displayName }}
 					</div>
 					<div class="tricks-item-body">
-						<span class="tricks-item-name">{{ flipTrick.name }}</span> 
+						<span class="tricks-item-name">{{ trick.name }}</span> 
 					</div>
 				</div>
 				<div class="tricks-item-nav"><i class="material-icons">chevron_right</i></div>
@@ -31,19 +31,19 @@
 				<h3 qu-layout="row" qu-layout-align="start center">
 						{{ activeTrick?.displayName }}
 						<span qu-flex></span>
-						<qu-button class="trick-status-stop qu-raised" [hidden]="activeTrick?.status != 'InProgress'">
+						<qu-button class="trick-status-stop qu-raised" [hidden]="activeTrick?.statusName != 'InProgress'">
 							<i class="material-icons">stop</i>
 							Stop
 						</qu-button>
-						<qu-button class="trick-status-start qu-raised" [hidden]="activeTrick?.status == 'InProgress' || activeTrick?.status == 'Completed'">
+						<qu-button class="trick-status-start qu-raised" [hidden]="activeTrick?.statusName == 'InProgress' || activeTrick?.statusName == 'Completed'">
 							<i class="material-icons">play_arrow</i>
 							Learn
 						</qu-button>
-						<qu-button class="trick-status-inprogress qu-raised" [hidden]="activeTrick?.status != 'InProgress'">
+						<qu-button class="trick-status-inprogress qu-raised" [hidden]="activeTrick?.statusName != 'InProgress'">
 							<i class="material-icons">sync</i>
 							Learning
 						</qu-button>
-						<qu-button class="trick-status-completed qu-raised" [hidden]="activeTrick?.status != 'Completed'">
+						<qu-button class="trick-status-completed qu-raised" [hidden]="activeTrick?.statusName != 'Completed'">
 							<i class="material-icons">check</i>				
 							Learned
 						</qu-button>

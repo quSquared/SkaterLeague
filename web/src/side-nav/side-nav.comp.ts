@@ -9,6 +9,10 @@ import { UserService } from './../user/user.svc';
 	providers: []
 })
 export class SideNavComponent implements OnDestroy { 
+	profileUrl: string;
+	profileInProgressUrl: string;
+	profileStatsUrl: string;
+
 	user: any;
   subscription: Subscription;
 
@@ -17,6 +21,9 @@ export class SideNavComponent implements OnDestroy {
 
 			this.subscription = this.userSvc.getLoggedIn().subscribe(user => {
 				this.user = user;
+				this.profileUrl = `profile/${user.displayName}`;
+				this.profileInProgressUrl = `profile/${user.displayName}/inprogress`;
+				this.profileStatsUrl = `profile/${user.displayName}/stats`;
 			});
 	}
 

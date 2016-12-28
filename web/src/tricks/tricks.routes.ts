@@ -1,9 +1,15 @@
-import { ModuleWithProviders }  from "@angular/core";
+import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
-import { FlipTrickComponent } from "./flip-trick/flip-trick.comp";
+import { TrickResolver } from './trick/trick.resolve';
+import { TrickComponent } from "./trick/trick.comp";
 
 const routes: Routes = [
-  { path: "tricks/flip", component: FlipTrickComponent },
+	{
+		path: "tricks", component: TrickComponent,
+		resolve: {
+			userTricks: TrickResolver
+		}
+	},
 ];
 export const TricksRoutes: ModuleWithProviders = RouterModule.forChild(routes);

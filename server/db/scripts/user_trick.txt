@@ -1,0 +1,13 @@
+CREATE TABLE `user_trick` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userId` int(11) NOT NULL,
+  `trickId` int(11) NOT NULL,
+  `statusId` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_idx` (`userId`),
+  KEY `trickId_idx` (`trickId`),
+  KEY `statusId_idx` (`statusId`),
+  CONSTRAINT `statusId` FOREIGN KEY (`statusId`) REFERENCES `status` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `trickId` FOREIGN KEY (`trickId`) REFERENCES `trick` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `userId` FOREIGN KEY (`userId`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

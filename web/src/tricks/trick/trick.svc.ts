@@ -4,13 +4,13 @@ import { Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 @Injectable()
-export class FlipTrickService {
-	private flipTrickUrl = 'api/flipTrick';
+export class TrickService {
+	private trickUrl = 'api/tricks';
 
 	constructor(private http: Http ) { }	
 
 	getAll(): Observable<any> {
-		return this.http.get(this.flipTrickUrl)
+		return this.http.get(this.trickUrl)
 			.map(this.extractData)
 			.catch(this.handleError);
 	}
