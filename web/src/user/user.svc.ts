@@ -4,6 +4,8 @@ import { Http, Headers, RequestOptions, Response, URLSearchParams } from '@angul
 import { Observable } from 'rxjs/Observable';
 import { Subject } from 'rxjs/Subject';
 
+import { UserTrick } from '../model/user-trick';
+
 @Injectable()
 export class UserService {
 	private user: any;
@@ -12,26 +14,49 @@ export class UserService {
 	constructor(private http: Http) {		
 	}
 
-	setLoggedIn(user): void {
+	public setLoggedIn(user): void {
 		this.store(user);
 		this.loggedInSubject.next(user);
 	}
 
-	getLoggedIn(): Observable<any> {
+	public getLoggedIn(): Observable<any> {
 		return this.loggedInSubject.asObservable();
 	}
 
-	store(user) {
+	public store(user) {
 		this.user = user;
 	}
 
-	get() {
+	public get() {
 		return this.user;
 	}
 
-	getTricks(): Observable<any> {
+	public getTricks(): Observable<UserTrick> {
     let user = this.get();
 		return this.http.get(`api/user/${user.id}/tricks`)
+			.map(this.extractData)
+			.catch(this.handleError);
+	}
+
+	public addTrick(userTrick: UserTrick): Observable<any> {
+    let user = this.get();
+		userTrick.userId = user.id;
+		return this.http.post(`api/user/${user.id}/tricks`, userTrick)
+			.map(this.extractData)
+			.catch(this.handleError);
+	}
+
+	public updateTrick(userTrick: UserTrick): Observable<any> {
+    let user = this.get();
+		userTrick.userId = user.id;
+		return this.http.put(`api/user/${user.id}/tricks/${userTrick.id}`, userTrick)
+			.map(this.extractData)
+			.catch(this.handleError);
+	}
+
+	public deleteTrick(userTrick: UserTrick): Observable<any> {
+    let user = this.get();
+		return this.http.delete(`api/user/${user.id}/tricks/${userTrick.id}`)
 			.map(this.extractData)
 			.catch(this.handleError);
 	}

@@ -1,0 +1,13 @@
+USE `skater_league`;
+DROP procedure IF EXISTS `profile_view`;
+
+DELIMITER $$
+USE `skater_league`$$
+CREATE PROCEDURE `profile_view`(IN userName varchar(255))
+BEGIN
+	SELECT concat(u.firstName, ' ', u.lastName) AS name, u.username, u.birthDate, u.state, u.country, (SELECT COUNT(*) FROM user_trick WHERE userId = u.id) as trickAmount FROM user as u 
+	JOIN user_trick ON userId=u.id
+	WHERE username=userName;
+END$$
+
+DELIMITER ;

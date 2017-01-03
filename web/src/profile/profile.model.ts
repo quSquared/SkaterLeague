@@ -2,7 +2,7 @@ export class Profile {
   email: string;
 	firstName: string;
 	lastName: string;
-  displayName: string;
+  username: string;
 	birthDate: Date;
 	state: string;
 	country: string;

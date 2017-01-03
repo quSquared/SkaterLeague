@@ -8,7 +8,7 @@ class TrickSvc {
 	}
 
 	getAll(cb) {
-		return this.DbConnect.query(`SELECT trick.name, trick.displayName, trick.description, trick.points, trick.url, position.name as positionName, difficulty.name as difficultyName FROM trick
+		return this.DbConnect.query(`SELECT trick.*, position.name as positionName, difficulty.name as difficultyName FROM trick
 															   JOIN position on positionId = position.id
 																 JOIN difficulty on difficultyId = difficulty.id;`, cb);
 	}

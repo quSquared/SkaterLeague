@@ -21,9 +21,9 @@ export class SideNavComponent implements OnDestroy {
 
 			this.subscription = this.userSvc.getLoggedIn().subscribe(user => {
 				this.user = user;
-				this.profileUrl = `profile/${user.displayName}`;
-				this.profileInProgressUrl = `profile/${user.displayName}/inprogress`;
-				this.profileStatsUrl = `profile/${user.displayName}/stats`;
+				this.profileUrl = `profile/${user.username}`;
+				this.profileInProgressUrl = `profile/${user.username}/inprogress`;
+				this.profileStatsUrl = `profile/${user.username}/stats`;
 			});
 	}
 

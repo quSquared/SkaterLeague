@@ -1,6 +1,10 @@
 .profile-view {
 	padding: 16px;
 
+	&-container {
+		max-width: 851px !important;
+	}
+
 	&-bg {
 		height: 300px;
 

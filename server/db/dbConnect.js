@@ -10,12 +10,15 @@ module.exports = function () {
 	return {
 		query: poolManagerQuery,
 		querySingle: function (args1, args2, args3) {
-			poolManagerQuery(args1, args2, args3, 1);
+			poolManagerQuery(args1, args2, args3, true);
+		},
+		queryStoredProcedure: function (args1, args2, args3) {
+			poolManagerQuery(args1, args2, args3, true, true);
 		},
 		destroy: destroy
 	}
 
-	function poolManagerQuery(args1, args2, args3, single) {
+	function poolManagerQuery(args1, args2, args3, args4, args5) {
 		var query;
 
 		pool.getConnection(function (err, connection) {
@@ -30,14 +33,14 @@ module.exports = function () {
 			if (typeof (args2) == 'function') {
 				query = connection.query({ sql: args1, timeout: 30000 }, function (err, rows, fields) {
 					connection.release();
-					var result = single ? rows[0] : rows;
+					var result = args4 ? args5 ? rows[0][0] : rows[0] : rows;
 					args2(err, result);
 				});
 			}
 			else {
 				query = connection.query({ sql: args1, values: args2, timeout: 30000 }, function (err, rows, fields) {
 					connection.release();
-					var result = single ? rows[0] : rows;
+					var result = args4 ? args5 ? rows[0][0] : rows[0] : rows;
 					args3(err, result);
 				});
 			}

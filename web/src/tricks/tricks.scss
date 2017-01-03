@@ -5,11 +5,15 @@ $sl-secondary: #1976D2 !default;
 	padding: 16px;
 
 	&-container {
-		width: 70%;
+		max-width: 851px !important;
 
 		> div {
     	min-width: 300px;
 		}
+	}
+
+	&-list {
+		max-width: 320px !important;
 	}
 
 	h3 {

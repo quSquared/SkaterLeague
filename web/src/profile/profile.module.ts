@@ -4,10 +4,12 @@ import { CommonModule }  from '@angular/common';
 
 import { QuSquaredModule, FlexLayoutModule } from '../../quSquared';
 
-import { ProfileRoutes } from './profile.routes';
+import { ProfileViewService } from './profile-view/profile-view.svc';
+import { ProfileViewResolver } from './profile-view/profile-view.resolve';
 import { ProfileCreateComponent } from './profile-create/profile-create.comp';
 import { ProfileEditComponent } from './profile-edit/profile-edit.comp';
 import { ProfileViewComponent } from './profile-view/profile-view.comp';
+import { ProfileRoutes } from './profile.routes';
 
 @NgModule({
   imports: [
@@ -21,6 +23,10 @@ import { ProfileViewComponent } from './profile-view/profile-view.comp';
 		ProfileCreateComponent,
 		ProfileEditComponent,
 		ProfileViewComponent
-  ]
+  ],
+	providers: [
+		ProfileViewService,
+		ProfileViewResolver
+	]
 })
 export class ProfileModule { }

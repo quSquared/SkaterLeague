@@ -20,7 +20,7 @@ class UserSvc {
 	}
 
 	save(user, cb) {
-		return this.DbConnect.query('INSERT INTO USER (`firstName`, `lastName`, `displayName`, `accountId`) VALUES(?, ?, ?, ?);', [user.firstName, user.lastName, user.displayName, user.accountId], cb);
+		return this.DbConnect.query('INSERT INTO USER (`firstName`, `lastName`, `username`, `accountId`) VALUES(?, ?, ?, ?);', [user.firstName, user.lastName, user.username, user.accountId], cb);
 	}
 
 	update(user, cb) {
