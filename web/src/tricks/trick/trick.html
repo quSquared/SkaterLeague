@@ -4,11 +4,8 @@
 			<qu-button *ngFor="let trick of tricks; let i = index" class="tricks-item" qu-layout="row" qu-layout-align="start center"
 				qu-flex [ngClass]="{'active': i == activeIndex}" (click)="viewTrick(i, trick)">
 				<div class="tricks-item-icon">
-						<div class="tricks-item-points" [hidden]="hasTrick(trick.name, 'Completed')"> 
+						<div class="tricks-item-points" [ngClass]="{checked: hasTrick(trick.name, 'Completed')}"> 
 							<span>{{ trick.points }}</span>
-						</div>
-						<div class="tricks-item-points checked" [hidden]="!hasTrick(trick.name, 'Completed')"> 
-							<span><i class="material-icons">check</i></span>
 						</div>
 				</div>
 				<div class="tricks-item-details">
@@ -36,13 +33,10 @@
 						<qu-button class="trick-status stop qu-raised" [hidden]="activeTrick?.statusName != 'Started'" (click)="stopUserTrick()">
 							<i class="material-icons">stop</i>
 						</qu-button>
-						<qu-button class="trick-status qu-raised" [ngClass]="{'start': activeTrick?.statusName == 'Started'}" [hidden]="activeTrick?.statusName == 'Completed'" (click)="setUserTrick('Started')">
+						<qu-button class="trick-status qu-raised" [ngClass]="{'start': activeTrick?.statusName == 'Started'}" [hidden]="activeTrick?.statusName == 'Started' || activeTrick?.statusName == 'Completed'" (click)="setUserTrick('Started')">
 							<i class="material-icons">play_arrow</i>
 						</qu-button>
-						<qu-button class="trick-status qu-raised" [ngClass]="{'inprogress': activeTrick?.statusName == 'Started'}" [hidden]="activeTrick?.statusName == 'Completed'" (click)="setUserTrick('Started')">
-							<i class="material-icons">autorenew</i>
-						</qu-button>
-						<qu-button class="trick-status qu-raised" [ngClass]="{'completed': activeTrick?.statusName == 'Completed'}" (click)="setUserTrick('Completed')">
+						<qu-button class="trick-status qu-raised" [ngClass]="{'completed': activeTrick?.statusName == 'Completed'}" [hidden]="activeTrick?.statusName == null" (click)="setUserTrick('Completed')">
 							<i class="material-icons">check</i>				
 						</qu-button>
 					</h3>

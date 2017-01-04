@@ -27,6 +27,7 @@ export class TrickComponent implements OnInit {
 		private activatedRoute: ActivatedRoute) {
 		this.trickSvc.getAll().subscribe(response => {
 			this.tricks = response;
+			this.sortTricks();
 		},
 			error => { });
 	}
@@ -89,6 +90,36 @@ export class TrickComponent implements OnInit {
 
 	public hasTrick(trickName: string, statusName?: string) {
 		return this.findIndexByUserTricks(trickName, statusName) >= 0;
+	}
+
+	private sortTricks() {
+		this.tricks.sort((trick1, trick2) => {
+			if (trick1.difficultyId < trick2.difficultyId) {
+				return -1;				
+			}
+
+			if (trick1.difficultyId > trick2.difficultyId) {
+				return 1;
+			}
+
+			if (trick1.points < trick2.points) {
+				return -1;
+			}
+
+			if (trick1.points > trick2.points) {
+				return 1;
+			}
+
+			if (trick1.name < trick2.name) {
+				return -1;
+			}
+
+			if (trick1.name > trick2.name) {
+				return 1;
+			}
+
+			return 0;
+		});
 	}
 
 	private getUserTrickByIndex(index: number) {

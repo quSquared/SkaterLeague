@@ -29,9 +29,6 @@ passport.use('local', new LocalStrategy({
 		var UserRequest = new UserSvc();
 			
 		AccountRequest.getByEmail(email, function (err, acctResult) {
-			var account = new AccountModel(acctResult);
-			var accountId = acctResult.id;
-			// if there are any errors, return the error
 			if (err) {
 				return done(err);
 			}
@@ -40,7 +37,11 @@ passport.use('local', new LocalStrategy({
 				return done(null, false, {
 					message: 'User not found'
 				});
-			}			
+			}
+
+			var account = new AccountModel(acctResult);
+			var accountId = acctResult.id;
+			// if there are any errors, return the error
 
 			// Return if password is wrong
 			if (account.validPassword(password)) {

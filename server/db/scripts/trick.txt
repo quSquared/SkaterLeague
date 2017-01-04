@@ -30,7 +30,18 @@ VALUES
 ('Fakie Backside 180', 'BS Half Cab', '', 4, (select id from position where name = 'fakie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/P_BEJVUn7Jk'),
 ('Switch Backside 180', 'Switch BS 180', '', 5, (select id from position where name = 'switch'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/EVcrXmvcAKk'),
 ('Nollie Backside 180', 'Nollie BS 180', '', 5, (select id from position where name = 'nollie'), (select id from difficulty where name = 'basic'), 'https://www.youtube.com/embed/o6DkecApPk4')
-
+UPDATE trick SET points=1 WHERE name='Ollie';
+UPDATE trick SET points=2, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='beginner') WHERE name='Fakie Ollie';
+UPDATE trick SET points=5, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='intermediate') WHERE name='Switch Ollie';
+UPDATE trick SET points=5, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='intermediate') WHERE name='Nollie';
+UPDATE trick SET points=2 WHERE name='Frontside 180';
+UPDATE trick SET points=3, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='beginner') WHERE name='Fakie Frontside 180';
+UPDATE trick SET points=6, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='intermediate') WHERE name='Switch Frontside 180';
+UPDATE trick SET points=6, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='intermediate') WHERE name='Nollie Frontside 180';
+UPDATE trick SET points=2 WHERE name='Backside 180';
+UPDATE trick SET points=3, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='beginner') WHERE name='Fakie Backside 180';
+UPDATE trick SET points=6, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='intermediate') WHERE name='Switch Backside 180';
+UPDATE trick SET points=6, difficultyId=(SELECT d.id FROM difficulty as d WHERE d.name='intermediate') WHERE name='Nollie Backside 180';
 
 
 
