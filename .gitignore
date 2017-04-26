@@ -1,13 +1,13 @@
-mobile/npm-debug.log
-mobile/.DS_Store
+mobile/SkaterLeague/npm-debug.log
+mobile/SkaterLeague/.DS_Store
 
-mobile/app/**/*.js
-mobile/hooks/
-mobile/lib/
-mobile/node_modules/
-mobile/platforms/
-mobile/tmp/
-mobile/typings/
+mobile/SkaterLeague/app/**/*.js
+mobile/SkaterLeague/hooks/
+mobile/SkaterLeague/lib/
+mobile/SkaterLeague/node_modules/
+mobile/SkaterLeague/platforms/
+mobile/SkaterLeague/tmp/
+mobile/SkaterLeague/typings/
 
 server/node_modules
 server/npm-debug.log
